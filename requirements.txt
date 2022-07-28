@@ -1,0 +1,2 @@
+treform==1.1.14
+bertopic==0.11.0
