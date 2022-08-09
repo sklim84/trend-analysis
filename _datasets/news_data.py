@@ -4,6 +4,7 @@ import pandas as pd
 import re
 import pickle
 
+
 ####################
 # 네이버 뉴스
 # - Format : date | press | title | link | content
@@ -28,6 +29,7 @@ def load_for_keyword(target_index, reuse_preproc=False):
         fin.close()
         return documents
 
+    # 데이터 로드
     df_news = pd.read_csv(loc_data)
     target = df_news.iloc[:, [target_index]].astype(str).values.tolist()
     # [[document1], ...] → [document1, ...]
@@ -59,6 +61,53 @@ def load_for_keyword(target_index, reuse_preproc=False):
 
     return documents
 
+
+def load_for_coword(target_index, reuse_preproc=False):
+    here = pathlib.Path(__file__).resolve().parent
+    loc_data = here / 'news.csv'
+    loc_stopwords = here / 'stopwordsKor.txt'
+
+    # 기전처리된 파일 사용 시
+    if reuse_preproc:
+        with open(here / 'news_pp_for_coword.pkl', 'rb') as fin:
+            documents = pickle.load(fin)
+        fin.close()
+        return documents
+
+    # 데이터 로드
+    df_news = pd.read_csv(loc_data)
+    target = df_news.iloc[:, [target_index]].astype(str).values.tolist()
+    # [[document1], ...] → [document1, ...]
+    target = sum(target, [])
+
+    # 전처리
+    pipeline = ptm.Pipeline(ptm.splitter.NLTK(),
+                            ptm.tokenizer.Word(),
+                            ptm.tagger.NLTK(),
+                            ptm.helper.POSFilter('NN*'),
+                            ptm.helper.SelectWordOnly(),
+                            ptm.ngram.NGramTokenizer(1, 1),
+                            ptm.helper.StopwordFilter(file=loc_stopwords))
+    result = pipeline.processCorpus(target)
+
+    # 구조 변경 : Sentence co-occurrence word를 찾기 위해 하나의 setence를 하나의 document로 변경
+    documents = []
+    for doc in result:
+        for sent in doc:
+            new_sent = ' '.join(sent)
+            new_sent = re.sub('[^A-Za-z0-9가-힣_ ]+', '', new_sent)
+            new_sent = new_sent.strip()
+            if len(new_sent) > 0:
+                documents.append(new_sent)
+
+    # 전처리된 결과 저장
+    with open(here / 'news_pp_for_coword.pkl', 'wb') as fout:
+        pickle.dump(documents, fout)
+    fout.close()
+
+    return documents
+
+
 ####################
 # Term Weighting을 위한 데이터 로드 및 처리
 # - 전처리 : Tokenizing, POS tagging & filtering, Stopword Filtering
@@ -78,6 +127,7 @@ def load_for_term_weighting(label_index, target_index):
                             ptm.helper.SelectWordOnly(),  # 품사 태크 제거
                             ptm.helper.StopwordFilter(file=loc_stopwords))
     return label.docs[1:], pipeline.processCorpus(content.docs[1:])
+
 
 ####################
 # Term Burstiness를 위한 데이터 로드 및 처리
@@ -114,6 +164,7 @@ def load_for_term_burstiness(target_index, ngram_min, ngram_max):
     print(documents)
     df['content'] = documents
     return df
+
 
 def load_for_dmr(timestamp_index, target_index, timestamp_pattern='%Y', reuse_preproc=False):
     here = pathlib.Path(__file__).resolve().parent
@@ -210,5 +261,3 @@ def load_for_bert(timestamp_index, target_index, timestamp_pattern='%Y', reuse_p
     fout.close()
 
     return timestamps, documents
-
-load_for_bert(0, 4)

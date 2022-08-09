@@ -11,7 +11,7 @@ import re
 ####################
 
 # 데이터 로드 및 전처리
-dataset = news_data.load_for_keyword(target_index=4)
+dataset = news_data.load_for_keyword(target_index=4, reuse_preproc=True)
 
 ####################
 # KRWordRank 기반 Keyword 추출

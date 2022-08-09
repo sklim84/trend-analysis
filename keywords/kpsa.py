@@ -10,7 +10,7 @@ import re
 ####################
 
 # 데이터 로드 및 전처리
-dataset = kpsa_data.load_for_keyword(target=3)
+dataset = kpsa_data.load_for_keyword(target_index=3, reuse_preproc=True)
 
 
 ####################

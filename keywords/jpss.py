@@ -11,7 +11,7 @@ import treform.keyword.textrank as tr
 ####################
 
 # 데이터 로드 및 전처리
-dataset = jpss_data.load_for_keyword(target=3)
+dataset = jpss_data.load_for_keyword(target_index=3, reuse_preproc=True)
 
 
 ####################
