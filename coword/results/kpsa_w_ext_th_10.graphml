@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d0" for="node" attr.name="count" attr.type="long"/>
+<graph edgedefault="undirected"><node id="있는">
+  <data key="d0">2003</data>
+</node>
+<node id="및">
+  <data key="d0">1843</data>
+</node>
+<node id="FinTech">
+  <data key="d0">309</data>
+</node>
+<node id="핀테크">
+  <data key="d0">828</data>
+</node>
+<node id="금융">
+  <data key="d0">1083</data>
+</node>
+<node id="새로운">
+  <data key="d0">1123</data>
+</node>
+<node id="서비스의">
+  <data key="d0">403</data>
+</node>
+<node id="법적">
+  <data key="d0">534</data>
+</node>
+<node id="관한">
+  <data key="d0">642</data>
+</node>
+<node id="아니라">
+  <data key="d0">719</data>
+</node>
+<node id="뿐만">
+  <data key="d0">210</data>
+</node>
+<node id="것으로">
+  <data key="d0">1030</data>
+</node>
+<node id="디지털">
+  <data key="d0">568</data>
+</node>
+<node id="통화의">
+  <data key="d0">228</data>
+</node>
+<node id="대해">
+  <data key="d0">808</data>
+</node>
+<node id="인공지능">
+  <data key="d0">298</data>
+</node>
+<node id="AI">
+  <data key="d0">256</data>
+</node>
+<node id="위한">
+  <data key="d0">694</data>
+</node>
+<node id="것이">
+  <data key="d0">841</data>
+</node>
+<node id="영향을">
+  <data key="d0">474</data>
+</node>
+<node id="미치는">
+  <data key="d0">313</data>
+</node>
+<node id="서비스를">
+  <data key="d0">369</data>
+</node>
+<node id="줄">
+  <data key="d0">167</data>
+</node>
+<edge source="있는" target="및">
+  <data key="d1">23.0</data>
+</edge>
+<edge source="있는" target="새로운">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="있는" target="것으로">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="있는" target="대해">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="있는" target="금융">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="및" target="것이">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="및" target="것으로">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="FinTech" target="핀테크">
+  <data key="d1">18.0</data>
+</edge>
+<edge source="핀테크" target="금융">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="금융" target="새로운">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="금융" target="서비스의">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="금융" target="서비스를">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="새로운" target="위한">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="법적" target="관한">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="아니라" target="뿐만">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="디지털" target="통화의">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="인공지능" target="AI">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="영향을" target="미치는">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="영향을" target="줄">
+  <data key="d1">10.0</data>
+</edge>
+</graph></graphml>

@@ -3,14 +3,14 @@ from _datasets import kpsa_data
 import re
 
 ####################
-# 지급결제학회 논문(2019~2021) abstract 분석
+# 지급결제학회 논문
 # - Format : id(doi) | year | title | abstract | keywords
 # - 기간 : 2017-2021
 # - 분석대상 : abstract
 ####################
 
 # 데이터 로드 및 전처리
-dataset = kpsa_data.load_for_keyword(target=3)
+dataset = kpsa_data.load_for_keyword(target_index=3, reuse_preproc=True)
 
 
 ####################
