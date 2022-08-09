@@ -1,0 +1,903 @@
+Central Bank payment cards circulation Europe end turn cards transactions
+Card switching domain issuer acquirer transaction domain
+switching domain change acquirers extent issuers card brands customer demand
+regulation
+payments market misnomer market way industries
+Market actors orientation talk change change
+market regulation state change
+interview Ernst Verbeek CEO Trionis specifics payment card industry change domain
+Payment services frontline technology revolution
+Financial technology FinTech companies boundaries services cash systems ledger technology customers experience
+institutions firms effort part revolution
+partnerships experiments technology products services
+article state payments innovation environment change drivers disruptors considerations transformative journey speed innovation risk
+Innovation services realm pace
+firms globe role technologies business models align payments solutions customer needs
+Transformation trends devices mobility shifts demographics customer expectations
+security concerns sale technology changes environment change
+context paper services landscape shifts commerce focus advances machine learning analytics customisation  loyalty segmentation value propositions technology transformations connectivity efficiency security
+generation payments
+paper state industry framework layers concludes innovation layer drivers context outcomes  hence investment adoption decisions layer
+paper innovation levels potential transformation industry
+Digitalisation sector economy ways things processes
+payment applications payment markets payment infrastructures
+advances competition changes payment markets years
+environment requirements authorities security reliability efficiency payments
+challenge paper framework development payment markets
+policy actions authorities
+roles authorities practice position catalyst development European payment landscapes
+policy conclusions importance cooperation bodies payment service users providers authorities
+processing variety industries
+payment industry
+implementation countries country time
+payments exercise delivery speed
+paper changes market payments profound effects incentives
+payments competition payment instruments service providers
+impacts respect business market practices currency money market securities trading settlement
+payments roles business opportunities intermediaries stakeholders payment banking industry infrastructures  connections
+implementation payments Europe years investments years management attention banks regulators topics innovations infrastructure
+peertopeer P2P payments success UK Sweden USA Kenya
+attempts payments disruptors banks operators others world
+paper successes Eurozone infrastructure
+success future emergence payment infrastructure Europe forefront services
+Comparisons policy decisions Europe geographies consequences therefrom
+paper debate focus infrastructure P2P applications
+success plethora applications infrastructures
+paper advent payment infrastructure value application
+payments industry brink change implementation EU Payments Services Directive
+UK situation Brexit vote
+UK government banks steps changes
+paper detail changes impact
+years Netherlands cooperation parties role payment chain
+example knowledge experience field fraud prevention security research threat analyses fraud mitigation measures
+partnership Europe
+Dutch Payments Association aspects security policy relation payment system institutions National Cyber Security Centre policy
+fraud prevention payment chain compiles analyses statistics fraud prevention policy
+addition implementation measures fraud
+Dutch partnership limits crime fraud
+payment chain link cooperation parties security payment chain
+paper approach fraud payment system
+studies consequences teller machine ATM subscription factors individuals fraud
+gap literature study ATM fraud victims Nigeria
+interview method data victims ATM fraud states Lagos Oyo
+results victims males females
+Fraudsters lovers friends relatives children victims
+Card cloning card swapping attacks ATMs tactics
+Vulnerability factors illiteracy health activity time withdrawal
+means fraud banks assortment strategies improvements staff welfare penalties staff fraud awareness customer alerts
+paper limits trust cashless policy
+policy issues need governance trust adoption compensation
+Europe mature markets things payment methods ewallets prepaid cards wallets payment methods
+markets preserve minority consumers
+markets payment methods things schemes user pay store  prepaid money apps
+PPRO wholesaler payment methods
+payment methods application interface API
+Payment service providers card acquirers marketplaces PPRO API systems merchants access range payment methods
+payments landscape scrutiny actors regulators
+interview Ralf Ohlhausen specifics payments industry developments payment space
+internet growth mass models inclusion microbusinesses
+time avenues crime
+ease goods online cyber criminals
+endeavours credit card networks acquirers access payment systems
+Criminals transaction use  front  businesses payment laundering use payment methods APMs mature risk policies
+credit card systems rules processes APMs peertopeer ewallet money transfer diligence monitoring practices
+Perpetrators payment hustlers front businesses payment methods trialanderror passage payment system
+Banks payment service providers operations practices
+diligence business customer experience
+research perceptions payment security consumers use payment instruments
+study Target data breach impact consumer perceptions security credit debit cards impact consumers use payment cards
+data Survey Consumer Payment Choice study effects differences groups ratings consumers information security debit cards breach ratings consumers breach
+credit cards difference ratings consumers survey breach ratings breach
+research impact security assessments payment instrument use decline debit card use rating
+study change debit card use
+paper responses US Federal Reserve  consultation faster payments
+approach issues alignment issues role Federal Reserve payments system design payments system
+support payments system  operator  role Federal Reserve transition payments
+sector views payments channel network infrastructure system business case
+Americans payments bank accounts payments USA regard fall countries
+Innovation interface closedloop networks term
+coordination failure room firms payment rails
+ledger technology DLT aka  blockchain  production costs capacity solution  cash  point innovation kinds transactions economies
+institutions Central Bank potential technologies
+paper reflection bank money blockchain scenarios
+digitisation bank money trust DLT perspectives economy market infrastructures concepts benefits
+money solution inclusion countries challenges adoption wallet accounts
+adoption benefit wallet things cost adoption
+paper issues pricing payments decisions consumer adoption wallets countries
+demonetisation payment instruments utility hence adoption payment addition network effects implications Big Data
+FinTechs candidates payments
+wallets foundations applications services service providers
+paper transit industry challenges systems
+overview key pressures transport operators piece fare collection systems adoption standard opportunities
+paper developments internet things IoT mobility cities transit transport
+need solutions collaborate ecosystems access control payments
+host card emulation HCE technology change
+approach consumer demand functionality ease use transport operators revenue streams cost
+Readers standards future fare collection way benefits HCE transport
+paper OSPT Alliance  standard CIPURSE ability challenges transport operators term scope developments deployments
+systems browsers applications secure service
+paper systems level confidentiality
+paper vulnerabilities leakage information client side
+techniques tools data number websites
+authentication data navigation activities disk threat confidentiality
+SEPA Instant Credit Transfer scheme Payments Council November force November
+scheme method payment area countries
+share challenges payment service providers
+paper opportunities difficulties scheme payment service providers
+support payment community SEPA Instant Credit Transfer scheme success payments
+Mobile money  term ability services customers device
+money accounts end accounts globe
+People money account payment electricity water groceries money people bills money savings account access money cash
+progress Africa Safaricom MPesa year results subscribers transactions customer month
+point market
+Mobile money part initiative phone operators
+banks services
+interview Greg Reeve Founding Partner Mobile Finance Experts MFX development money continent
+services sector way days receipts volumes ledger books
+Paper bytes data PCs data centre servers
+actors doors institution technology vulnerabilities people machines information line pockets
+increase attacks cyber security requirements resources institutions opportunity institutions threats harm
+paper information sharing community participants component institution  s information security management system institution guidelines maturity security programme
+discussions technologies blocktech payments business
+date discussion possibility future technology value transfer process
+examination benefits costs level maturity technology frameworks blocktech mechanisms niche circumstances
+lack adoption adaptations Facebook breakthroughs adoption paradigm payment systems
+paper innovation technology FinTech  innovation benefits innovation increase use diffusion innovation benefits innovator product process accrue range users uses
+study pattern innovation diffusion result integration needssolutions
+study implications FinTech diffusion banking industry
+Internet Things IoT impact industries health insurance
+glance IoT  impact banking
+banking payments industry
+devices platforms cars internet conduits commerce transactions require payments capability
+IoT commerce transactions turn changes payments
+paper impact IoT payments banking
+opportunities IoT evolution presents payments industry examples payments industry IoT opportunity
+paper perspective potential bank cash payment tool Europe
+research approach comparison types money characteristics forms money currencies Bitcoin
+backdrop extension Central Bank  categorisation forms bank cash paper case bank cash equivalent
+questions involvement banks payment service providers versus transparency role consumer protection dcash
+analysis paper overview evolution payments Europe
+combination infrastructure enhancements change innovations services competition payments space
+changes years payments competition currencies payments
+context cash usage Europe costs idea dcash
+government India target transactions year agencies towards goal
+goal India transactions year
+paper years payment system data trends India target transactions
+India Rogers diffusion innovation curve regard adoption payments
+statistics Committee Payments Market Infrastructures paper aspects adoption payments
+strategies India government  goal pricing decisions taxation access market segments
+paper India strategies country payments
+Balkan region  Albania Yugoslav republics market payments
+cashless payments volumes potential development payments
+areas potential growth similarities markets interconnection economies business
+businesses borders expansion countries language interconnectivity markets
+Cash Balkans
+number transactions
+challenge online payments Balkan countries costs transactions card assessment fees times EU
+banks plans policies EU regulations Interchange Regulation PDS2 market liberalisation transaction costs
+field payments market segment ticketing services transport sector
+number studies value payments customers service end users lack research value payment business customers transport companies retailers
+paper gap kinds value services create transport companies
+research considers services Northern countries
+research context services dimensions value functionality value environment value customer relationship value
+passengers value form convenience service enhancement
+benefits factors adoption ticketing payment services transport companies
+paper payment scenario Singapore country  government ponders leap China payment space
+paper factors success payments China success WeChat country Singapore
+China Singapore size share similarities government direction growth economy
+countries share influences materialism adoption emphasis education
+paper payments mile evolution society
+comparison China Singapore paper considers factors adoption cashless payments merchant discount rates mass interfaces mass transit cards consumer behaviour government policies
+paper benefits transition payments impact payments debit credit cards household consumption
+model work Zandi al1 dataset terms number years countries
+results use payment cards impact consumption product GDP effect consumption GDP  impact Zandi al
+analysis transition payments matters economy whole GDP families consumption
+card penetration GDP average percentage points US year
+contribution card usage income GDP Kuwait GDP Bangladesh Vietnam US US GDP Hungary Ukraine US US
+objectives resolution authorities extent continuity functions firm resolution
+continuity functions cases access clearing payment settlement services
+paper aspects experience relation bank resolution Italy
+events paper shares lessons respect continuity access payment systems resolution phase approaches risk resolution phase highlights areas improvements actions
+Cash management role enterprises
+Liquidity requirements interest costs currency risks costs issues companies
+paper results survey state cash management enterprises
+survey maturity companies cash processes reveals majority enterprises road standardise cash processes
+payment factories banks use cash pooling services
+number banks bank accounts
+result banks banks worldwide
+addition enterprises transition payments customer interface
+survey payment sales front subsidiaries sales organisations
+future enterprises payments sales channels
+integration payments cash processes requirement challenge enterprises banks FinTech companies field
+focus Bank Japan Financial Network System BOJNET paper paths innovation platform initiatives core payment systems payment service systems Japan
+Bank Japan settlement service operators settlement exchange settlement exchange settlement payment settlement government bonds bonds funds
+shortening settlement period government bonds changes future
+Internet Things technology DLT questions future   machinetomachine M2M payments
+example machines payments payments points consideration
+machines images future M2M payments systems payments road tolls  behalf  consumer
+approaches realworld use case M2M payments world science fiction
+opinion piece M2M payments perspectives point view implementation payment systems context
+declaration M2M payments people robots decisions payments
+Henry Stewart Publications
+paper TARGET Instant Payment Settlement TIPS service Eurosystem market infrastructure service settlement payments level bank money
+service competitiveness market incentive payment service providers solutions citizens
+paper payment service providers TIPS solutions consumers level
+Henry Stewart Publications
+November Single Euro Payments Area SEPA introduction payments launch Payments Council  SEPA Instant Credit Transfer scheme systems payments
+preparation date payment platform RT1 EBA CLEARING paper infrastructure considerations
+paper drivers success payments infrastructure layer
+year publication paper company drivers elements processes arrangements level RT1 system order
+aim measures uptake processing payments
+paper summary reality check
+Henry Stewart Publications
+world payments progress SWIFT  payments innovation SWIFT gpi benefits corporates topic interest
+SWIFT gpi success story payments industry SWIFT gpi corporates g4C paper background Deutsche Bank  work solution addition summary Roche  suggestions treasury departments benefits industry standard
+Henry Stewart Publications
+emergence digital change demand consumer side services supply side institutions
+institutions developments work business models
+modernisation projects paper following market focus customer experience bring flexibility investments digitisation contributes revenue roadmap resources knowhow ideas functionality
+Henry Stewart Publications
+payment services market rate innovations developments
+piece legislation Payment Services Directive PSD2 framework payment market Economic Area aim level integration efficiency market level consumer protection
+context enhancement infrastructures keystone challenges PSD2 opportunities
+paper creation banking platform CBI Globe  Global Open Banking Ecosystem interconnection banks parties application programming interfaces line directive
+platform parties administration accounts reporting payment collection services business opportunities PSD2
+Henry Stewart Publications
+Correspondent banking today  world locations decrease number correspondent banking relationships
+Legal Entity Identifier LEI root development issues diligence customer KYC obligations
+actions use LEI place BICtoLEI mapping introduction LEI basis SWIFT MT payment messages use LEI transactions European Union pursuant Markets Financial Instruments Regulation Market Infrastructure Regulation
+terms distribution promotion LEI
+paper banks opportunity LEI regard customer diligence processes
+paper future correspondent banking LEI
+Henry Stewart Publications
+Payments stakeholders today challenges customer fraudster identity credentials customer
+emergence commerce customer challenge
+Biometrics use systems individuals characteristicsAdvances technology integration sensors consumer devices smartphones biometrics authentication tool transactions
+paper modalities use consumers
+review technology capture analysis discussion advantages challenges technology
+reader understanding modalities work security payments system
+Henry Stewart Publications
+Uniform payment methods transaction costs payments
+purchases sales internet payment innovations customers transactions
+role government interest respect payment system
+paper viewpoints government intervention perspective sector economics
+regulators rules players relation Payment Services Directive
+Henry Stewart Publications
+paper evolution merchant payments systems payments inclusion payments consumers ways device
+paper payment systems act catalysts enablers inclusion process inclusion demand factors
+summary trends payments discussion banks payments providers future
+Henry Stewart Publications
+payments landscape change
+Banks pressure customers crossborder payments technologies payment alternatives status quo
+SWIFT payments innovation gpi industry solution payment ecosystem
+gpi SWIFT pain points challenges payments needs banks customersThis paper look SWIFT gpi standard payments core principles payment innovation ways SWIFT gpi
+tools change opportunities collaboration SWIFT banks corporates FinTechs
+Henry Stewart Publications
+payments market changes
+interplay changes technology consumer behaviour transformation environment
+opening payment market providers industry advent competition
+paper phenomenon payments commoditisation consequence changes responses differentiation
+data outcome analysis assets differentiation services
+paper opportunities amounts data banks payment providers order competitiveness
+reader relevance Big Data analytics payments industry need centre business operations
+payments core user experiences banks payment providers position partners customers payment transaction processing
+Henry Stewart Publications
+appearance currency  implementation Bitcoin catalyst discussion nature money future development monies bank money
+discussion today arguments definition money role banks
+money  agreement agents legitimacy value future
+paper framework money agreement age digitisation mechanisms game theory tokens development money liabilities banks clients banks banks mechanism coins institution
+development money age users perception stability security convenience freedom choice trust  reusability
+discussion banks paper dynamics century definition acceptance money
+Henry Stewart Publications
+appetite cash remains societies
+fact demand cash economies start crisis
+People cash distribution cash ecosystem cash cycle
+Cash payment instrument cases
+things interview trends efficiency cash
+banks cash distribution policies view velocity banknote circulation efficiency cash cycle
+Automation area innovation
+innovations efficiency cash
+Cash possesses attributes payment instruments
+time confidence banks remains access product consumers banks image banks public
+Henry Stewart Publications
+implementation Commission  Multilateral Interchange Fee Regulation interchange fees card payments market reduction size scope
+paper motives grounds regulation relation banks revenue losses
+data Visa MasterCard Central Bank period years paper relationship interchange fees payment metrics
+contrast forecasts Commission results issuer losses increases card volume
+improvement welfare regulation
+Policy intervention models
+Empirical data industry observations
+findings call involvement payment markets
+Henry Stewart Publications
+emergence internet ecommerce 1990s challenges payment markets
+China  payment markets platforms Alipay WeChat payment markets Germany banks form payment systems credit transfers debits  payments girocard debit scheme addition cash
+sample retailers areas China paper market shares Alipay WeChat fall region cent payment scenarios dominance payment service providers areas
+Germany contrast payment methods scale
+evidence paper drivers challenges payment methods examples China Germany
+Henry Stewart Publications
+data use credit cards Canada use cash
+time twothirds enterprises credit cards
+future development trend change merchant fees credit card acceptance cash use
+end paper level merchant fee merchant credit card cash payment merchant indifference testThe study results assumptions
+paper issues methodology Canada
+Henry Stewart Publications
+paper case study use intelligence AI detection payments fraud
+process AI payment environment transactions time
+design engine data analytics component highperformance fraud detection value dataThe design properties customer data patterns
+feature fraud detection rate performance stability solutionThe solution technology platform fraud detection rate cent cent terms number transaction records cent amount volume terms transaction value rate percentage transactions cent centThe solution category AI rationale decisions
+Henry Stewart Publications
+January EU Payment Services Directive PSD2 effect European Union aim inter alia competition innovation payment services access payment accounts banksThe resultant opportunities firms consumers challenges authorities objectives PSD2 number requirements
+process close moment presents stock account challenges eyes European Banking Authority EBA EBA
+Henry Stewart Publications
+EU General Data Protection Regulation GDPR shakeup data protection laws years
+paper impact enterprises SMEs cent business EU twothirds sector employment EU
+Commission considers SMEs entrepreneurship key growth innovation job creation integration EUThis paper SMEs compliance GDPR burden duty development competitiveness firms staff process implementation supervision GDPR paper areas cloud technology SMEs players GDPR technology cost resources
+Henry Stewart Publications
+paper remittance services Lesotho
+portion inward remittances remittance services bulk channels inefficient
+bank channels money transfer operators presence Lesotho
+channels money services Shoprite cashtocash services inward remittances move payments inclusion
+market challenges preference cash number access points networks areas interoperability banks network operators network operators
+paper authorities Lesotho payment systems infrastructure framework literacy remittance service providers remittance market
+addition authorities consumer protection dispute resolution framework remittance services services
+Henry Stewart Publications
+technologies payments industry nature money
+change money  money memory interfaces ability decisions implications disruption world currencies
+technologies anyone money
+future Britcoins
+paper technology cryptocurrency   issuers money banks banks cryptography companies communities
+detail scenario currencies communities number reasons
+Henry Stewart Publications
+lack innovation services market domination protection banks forces FinTechs parties banks
+era innovation advancements payments technology end
+Payments Services Directive PSD2 parties opportunity launch payments channel regions exists
+smartphone adoption access channel purchases
+payments value channel transaction fees
+volume giants Facebook Google Apple recognise power steps payment powerhouses
+Banks strengths payments
+benefits revenue sources payment channels
+FinTechs banks products ideas
+relevance payments banks payments priority
+Henry Stewart Publications
+paper movement cash use consumers
+Henry Stewart Publications
+paper aspects cryptocurrencies assets basis blockchain infrastructure
+structure tokens blockchains assets securities forms money property rights
+viability complexities limitations models purpose reader foundation exploration field
+Henry Stewart Publications
+paper role ledger technologies DLT assets arena payments assets payments paper begins state crossborder transactions today development systems today  s network gardens borders currencies
+DLT solutions limitations
+technology liquidity issues markets markets
+banks payment providers issues accounts currencies sides transaction something accounts
+assets advantage combination DLT
+bridge currency assets pools liquidity transactions
+future crossborder payments combination DLT assets
+way banks payment providers transactions
+promise adopters
+Henry Stewart Publications
+FinTech way millions people finances
+China Alipay WeChat Pay nature consumption
+paper briefly history giants forays finance future giants expansion
+Henry Stewart Publications
+cyber breaches identity frauds news
+Users frustration passwords registration procedures
+Governments acceptance merchants fraud costs investments
+time topic identity
+paper  identity  person company  verification
+people companies devices apps bots paper use authentication shift dependence documents faxesutility bills user IDpasswords twofactor procedures
+future pseudonyms identification occasions anonymisation
+paper model silos organisations attributes organisations fourcorner model today  interconnections
+arguments banks role space benefits Open Banking economy
+Henry Stewart Publications
+purchasing grows volume use cash need payment methods diversifies
+Simply payment services providers account constraints conditions merchants business processes
+paper requirements design payment interaction flows impact payments products infrastructure
+summary trends commerce services analysis economics payments
+opportunities challenges Payment Services Directive PSD2  stipulations customer authentication transaction authorisation
+Henry Stewart Publications
+communication importance tool trade goods services buyers sellers countries
+Banks example experience area administrations services needs
+supply chain need standards identities trading partners purposes invoicing customs declarations payments
+Businesses consumers government agencies challenge  supply chain
+approach identity management
+paper issues identities business applications payment systems
+Henry Stewart Publications
+payment clearing settlement system Lesotho processesTo address programme system support circulation funds economy
+initiative country  payment clearing settlement system
+Lesotho payment clearing settlement system policy fosters stability inclusion benefits
+work
+needs challenges country modernisation payment clearing settlement system process
+system standards order trade investment
+framework date order changes technology innovation arbitrage
+Henry Stewart Publications
+paper impact bank currency CBDC payments landscape
+discussion concept money functions theories
+analysis concept CBDCs types CBDC
+paper questions adoption CBDC approach solutions
+paper aspects payments order CBDC transactions risks payment system participants
+paper form money discussions theory money approach subject legislator amendments Treaty Functioning European Union Statute European System Central Banks decision CBDC
+Zengin System payment settlement system provision secure network country  institutions
+system advances
+place October operating hours service days year receipt funds time
+second place December launch Zengin Electronic Data Interchange System ZEDI information fund transfers use messaging
+Zengin System Japan  payments infrastructure system
+account payment trends advances SWIFT speed access simplification remittance destination designation partnerships institutions technology companies application programming interfaces message standards challenges
+paper Japan  payments infrastructure possibilities technology innovation nation  s banking industry payment services sector
+paper questions people Facebook  s Libra regard nature
+paper thanks way Libra aspects capital markets paper Libra Association resellers branch office s EU
+Otherwise market network EU market
+Libra product functions product types payment instruments instruments
+way capital market regulation  risks guise fact
+correspondent banking network requirements alternatives payments years
+side payment platforms AliPay PayPal AribaPay solutions Bitcoin
+June Facebook  Libra culmination approaches
+paper alternatives payments drivers developments
+paper taxonomy money age order solutions
+dimensions concepts tokens accounts versus versus messages pools
+alternative system time monitoring way research insight challenge
+EU regulation prospect firm operating payments sector
+changes EU landscape firm  ability abreast changes impact business plans requirements factor success failure paper overview topics examines relevance firms payments sector Payment Services Directive PSD2 Interchange Fee Regulation IFR regulation cryptocurrencies cryptoassets EU regulation relevant payment service providers systems impact UK  departure EU Brexit
+use technology funds transfers market payment services speed convenience ubiquity safety value money
+paper role settlement RTGS system world payments
+features RTGS payments role RTGS
+issues banks payments settlement infrastructures environment
+areas banking world payments suffers cost compliance methods accurate data entity identification
+use Legal Entity Identifier LEI element entity identity management payments life cycle issues
+LEIs payments life cycle information entity payments transactions parties process
+Payments Market Practice Group migration ISO payments standard use LEI migration opportunity reference data entity identification enhancements identification messaging processes payments community
+trend payments software FinTech bank acquirers channel payments wave FinTech FinTech consists software companies payments offering
+FinTech companies payment economics merchants experience
+software company pathways payments customers way benefits FinTech payment facilitator payfac
+Thanks emergence infrastructure providers
+paper state merchant distribution benefits distribution models options software companies payments model
+paper evolving landscape drivers growth businesstobusiness B2B FinTech
+respect paper role drivers regulation digitalisation drive efficiency lack agility services providers needs expectations
+paper factors institutions partner specialist FinTechs investment levels investor interest B2B FinTech space
+paper trends future services providers partner FinTechs niche solutions
+paper future landscape future
+authors consolidation B2B FinTech space emergence giants services space potential TechFin future
+payments landscape rate
+New technology developments culture solutions requirements number entrants market practices concepts society convergence factors catalyst banks action modernise payments
+paper banks value order standing payments space
+Banks SWIFT gpi solutions clients
+paper correspondent banking alliances developments
+November launch SEPA Instant Credit Transfer SCT Inst scheme Payments Council payments paper progress SCT Inst months path
+paper indicator measure cash preference India credit transactions teller machines terminals
+indicator customers sector banks preference cash transactions transactions customers banks transactions cash transactions
+cash preference ratio trend time line Reserve Bank India  towards economy
+results decline cash preference period demonetisation cash preference period
+study customers sector banks cash preference customers sector banks
+authors introduction oversight mechanism root causes cash preference provision measures investment infrastructure transactions cating customers benefits economy
+Banking payment services ground implementation intelligence AI solutions problems
+Financial services providers AI costs compliance pressures relationships customers
+extent AI services  operations organisations implementation AI technology perspective
+paper overview rise AI AI automation tool shift considerations organisation account
+paper ledger technology DLT payments market impacts technology
+paper locus control DLT shifts system administrators users locus knowledge shifts programmers knowledge
+implementation DLT singlelayer network intermediaries payment cycle approach application DLT components ecosystems
+designs briefly perspective database centrality literacy quality assurance
+paper DLT payments lens standardisation market adoption platformisation
+paper payment systems DLT traction market service fragmentation market
+paper components payment DLT systems DLT technology payment systems role market
+interchange fees MIFs authorities inconsistent
+time cartel prices ceiling concept
+paper MIFs cartel pricing error
+MIF ingredient card payment system
+MIFs payments markets problems transaction costs
+MIFs tendency prices paper ATM system
+paper approach demise European card schemes pressure MasterCard Visa
+technology payments landscape standards
+Adoption ISO newer standard  market infrastructures customers services
+trend SWIFT migration payments messages ISO
+success ISO risks problems variation way
+variation value
+article consultation industry framework SWIFT  ISO migration strategy
+approach standards adoption market practice success ISO innovation payment landscape
+interview Kai Lindstrm Head Payments Neste issues fuel payments market focus payments Nordic Baltic regions
+penetration payment varies country challenge customers ways methods legacy methods
+Kai issues unique fuel payments market headaches payment profit margin petrol diesel means fuel retailers merchant service charges providers payment services
+Central Bank project settlement system TARGET2 settlement platforms securities settlement TARGET2 Securities payments settlement TIPS platforms
+consolidation gateway access systems introduction liquidity management standardisation messaging accordance ISO industry message scheme
+project impact banks payments infrastructure
+business rules processes impact liquidity management
+banks resources obligations migration place November
+project trend migration payments ISO standard Dollar Zone Sterling Zone SWIFT projects
+paper content approach timeline impact consolidation banks
+TARGET2 consolidation challenge implementation euro Single Euro Payments Area
+paper key decisions banks road migration
+years Netherlands cooperation parties payment chain
+example knowledge experience field fraud prevention security increase volume research threat analysis fraud mitigation measures jointlyWith introduction Instant Payments Payments Services Directive focus availability payment services feasibility control prevention payment fraud banks measures payments secure world
+paper developments world payments identity security measures fraud availability security
+years banks capabilities codes participants payment activity order
+automation rates interbank payments
+benefit entity identifiers LEIs participants payment chain
+authorities banks risk departments identification participants payment process
+paper impact benefits cost LEI payment instructions
+regulators innovation competition payments market banks providers access bank accounts XS2A
+requirements differences jurisdictions Berlin Group NextGenPSD2 XS2A interoperability standards governance model creation standards
+paper background details harmonisation NextGenPSD2 Framework implementation coverage evolution framework
+authors standardisation NextGenPSD2 market players use cases business models schemes
+improvements telecommunications computers age payments USA development Automated Clearing House network
+decades communications commerce industry payments economy
+moment pursuit payments November Clearing House RTP network country  payment system
+interview Tim Mills Vice President Business Development Product Management Clearing House origins RTP network shares insights year operation parallels development payments race man moon
+economies publication product GDP performance
+India example time lag months
+paper settlement RTGS data GDP
+RTGS data Reserve Bank India RBI basis data GDP forecasts
+paper results payments systems data GDP forecasts
+paper GDP RTGS model RTGS volume data ability GDP
+Banks others
+Regulators customer demands technology agenda
+paper banks react order control
+Warning paper language regard readers sensitivities
+country demand bank currency CBDC trends level cash use
+access currency teller machine currency convenient bank debit card
+Demand currency countries adoption cash substitutes cards money phone payments demand cash
+contrast cash use lack substitutes demand currency
+Building observation demand CBDC level cash use paper measures trends demand cash countries
+forecast cash use
+cash use change study level cash use demand CBDC countries
+process measure cash use others
+digitisation developments payment technology   use paper cash discussions possibility banks cash
+paper expectations ecash user perspective ecash account payments cash
+banks competition payment services
+service edge payment services
+risk market distortion payments deposit services
+issues requirements accounttransaction liabilities role services
+bank ecash payment instrument requirements segment payments market
+speed change transaction banking pace multitude innovations fore processes
+technologies interest industry processes challenges benefits banks
+paper technologies banks transaction experiences clients
+paper taxonomies cryptoassets standards Ethereum tokens features ISO industry standard
+exploration credit transfer ERC standards ISO requirements
+inclusion essence access usage services payment services
+heart payment services transaction accounts
+paper role transaction accounts stakeholders access use accounts
+FinTech developments role innovations access services risks
+discussion reports payment aspects inclusion Committee Payments Market Infrastructures World Bank
+framework access use transaction accounts report report potential FinTech developments inclusion
+light role institutions payment systems paper experience practice banks regard ing access settlement RTGS systems considers policy issues
+Spe capacity settlement agencies operators RTGS systems banks today merits RTGS access payment service providers PSPs banks companies technology provision payment services
+paper issue context extent access RTGS systems PSPs
+Decades experience RTGS systems countries stages sector development marketplace number problems banks users RTGS systems beneficiaries services
+paper experience practice
+paper siderations access issues bank currencies
+COVID19 pandemic challenges organisations
+pandemic business practices activities  service  centres
+reality organisations changes health guidelines
+centre adjustments use card technology payment method emergency situations workforce flexibility demands
+paper results survey card programme administrators organisations card programmes realities COVID19 pandemic
+Implications future payment technology
+paper evolution payment systems India
+role cash country mid1980s Reserve Bank India  introduction ink character recognition technology cheque clearingThe paper Reserve Bank India development payment systems settlement National Electronic Funds Transfer system institutions payments National Payments Corporation IndiaThe paper steps use payment systems country
+paper tree  cash series case studies taxonomy discussion options bank currencies highlights alternatives currency balances hardware FedDex  balances online database FedPesa  tokens online ledger FedCoin
+paper observation FedCoin solution opportunities innovation growthThe idea form FedCoin platform money money bank context way cash system currency
+focus banks potential bank currencies potential cash platform opportunities generation services payments
+urgency beta testing currency
+paper shift cash cash form bank instrument
+authors choices cash payment schemes uptake usage instruments  inclusion innovation
+payment scheme elements technology transactions participants
+schemes options banks choices
+banks lead schemes market schemes
+schemes ones
+choices authors options banks approach approach approach approach
+choice option number factors policy cash competencies bank payments competition landscape
+world adoption payment systems apace
+time demand cash economies
+puzzle explanations literature
+paper evidence adoption payments demand cash
+growth demand cash growth interest rates trends demand denomination banknotes factors
+paper enterprise SME landscapes challenges face relationship methods relationship
+paper firms role relationships banks SMEs routes banks advantage market sector FinTech technology partner FinTechs banking ecosystem
+paper banks approach problemsolving combination solutions help providers
+way banks opportunities SMEs pace change banking industry society whole
+November G20 Legal Entity Identifier LEI programme development system parties transactions
+entities jurisdictions
+LEI
+paper progress implementation benefits LEIs offer means identity payments
+plans LEIs payments move ISO standard barriers adoption
+call action  market participants steps LEIs payments industry wider economy
+consumer expectations payments market level
+European Union framework Payment Services Directive boost innovation competition payments market
+payment landscape state development paths look paper reviews developments implications vision developments payments market
+path
+future framework payments movement towards regulation
+technologies kinds payment systems  cryptography phones biometrics blockchains kinds money
+banks technologies versions currencies cost availability technologies nation states currencies
+paper paper organisations  framework  motivations proposals discussions policy examples sector Facebook  Libra public sector People  Bank China currency
+paper competition currencies hegemony rates shifts plates power result earthquakes landscape power
+Facebook intention payment system blockchain technology establishment arguments payment systems
+paper geopolitics concepts policy emergence stablecoins Facebook  s Libra project bank currencies currency SHC Mark Carney Bank England
+cryptocurrencies cryptocurrencies role currencies
+distinctions bank currencies level SHC reserve asset paper structure SHC   model infers similarities rights development asset policy interests
+paper prospects SHC objects model
+features objects claims prospects success
+generation network effect value substitute convertibility value rights contribution blockchain technology reserve currency
+paper banking system architectures emergence banking
+Platform models banking solutions
+demand side network effects banking platforms limitations
+model platform behaviour success banking emergence platforms scope
+architectures banking characteristics banking solutions
+role technologies characteristics propensity use implementation banking platforms
+types banking platforms terms components collaborations
+benefits payment service providers thirdpartyproviders banking platforms
+paper effects closedloop payments economies attempts barriers closedloop mobile payments inclusion
+paper approaches Tanzania Pakistan Jordan challenges outcomes
+date countries access payments systems RTRPS
+systems development number years
+countries infrastructure payment acceptance RTRPS applications QR codes means payments
+countries RTRPS infrastructure institutions FinTechs pay ments ecosystem competition inno vation inclusion
+way payments systems infrastructure hence vital development
+economies systems paper dependability pay ments market research findings countries economies Australia Japan UK economies India Mexico Thailand
+findings paper dis cusses policy implications approaches payment systems
+end General Intelligence Security Service owners managers infrastructure Netherlands developments threats advent quantum computing
+institutions developments quantum computing implications interbank business paper banks payment institutions computing developments
+understanding Dutch Payments Association experts experts institutions impact quantum advancements industry
+key deliverable approach dealing threats quantum computing payment systems
+paper quantum readiness programme moves
+paper use cash US consumers
+data consumers cash reports demise cash premature
+COVID19 pandemic response governments world
+theme responses consumers homes
+paper lockdown consumer behaviours implication payments
+period consumer needs needs solutions
+situation business models delivery services stores restaurants venues
+Payment providers change mix payments towards contactless payments
+paper sight implications change lives relationship technology
+Payments Council November Single Euro Payments Area SEPA Instant Credit Transfer SCT Inst payments credit transfers SEPA area seconds
+SCT Inst everyone consumers businesses companies administrations
+SEPA credit transfer users service providers hours day days week
+paper progress SCT Inst launch success factors challenges future
+Americans access payments Early Warning Services  Zelle services institution RTP network payment system Clearing House
+interview Attila Csutak Vice President Product Manager RTP Zelle KeyBank shares KeyBank  year operations Zelle RTP network
+state faster payments adoption USA observations impacts payments years
+paper experiences frameworks payment services
+framework process payment activities licensing entities systems analysing managing risks certainty
+paper payment activities risks adherence standards requirements
+paper power banks money
+literature contributions topic paper  payments  issue role banks payment systems way money
+perspective paper banks payment obligations rules settlement determine constrain extent bank power money
+paper monies bank currencies creation money banks
+understanding topic money creation paper  payments  uniqueness banks today  FinTech world key impact FinTech money credit supply economies
+paper relevance payment system analysis theory practice need disciplines
+paper issues transformation payments market
+context services transformation driver evolution payments
+issues payments market approach
+context payment ecosystem issues innovation use cases debate question sovereignty
+questions thing field payments origins asset economy
+Payment Services Directive PSD2 development market payment services
+paper impact PSD2 online payments impact PSD2 market payment initiation services future
+PSD2 relationship banks FinTechs banking access customer account data payments infrastructure
+response Europe  bankers PSD2 uncertainty
+uncertainty gravity timing threats PSD2 regulation opportunities payments organisations
+paper literature layering process change government  plan epayments country  system
+concept policy changes place country  payment system policy activities actors public sector
+paper data interviews actors government  system
+Analysis regulations policy documents reports
+paper layering arrangements actors instruments
+way paper actors governance regulation epayments Egypt
+paper advantages disadvantages society cash
+paper focus Sweden India examples markets views approaches importance cash payment choice
+issues debate cost conveniencespeed transactions crime activity employment payment choice
+turn paper world interests interest
+attention steps level cash remains payment choice menu public
+Europe Africa America Portugal system
+Portuguese cash citizens debit cards
+payments market payment system Multibanco
+Multibanco payment brand SIBS payments specialist payment infrastructure banks
+BNI Europa challenger bank niche products segments
+interview Pedro Coelho talks specifics Portuguese payments industry way BNI Europa market branchless bank expectations developments payments market
+emergence payments levels convenience consumers
+platforms payment platforms payment apps
+platforms share characteristics value creation  services  consumers cost merchants
+development business paradigm payment models payment merchants spectrum payment options consumers
+light reality interchange fee model hangover century
+New business models payment industry Europe  s payment infrastructure age
+comment piece opinion future payment business models developments shift plastic cards devices mode payment shift schemes participants platforms models value creation
+paper model banking application interface API ecosystem expansion banking APIs minimum
+paper banking business scenarios candidates requirements set banking services
+API model framework examples  services scenarios
+market constructs APIs burgeoning ecosystem
+Barriers development realisation banking ecosystem
+payments systems payments payments payments momentum
+paper framework countries countries systems considerations settlement options message formats access etc countries
+paper level selection developments expectations agenda payment service providers start decade
+paper sovereignty payments payments Interchange Fee Regulation crossborder payments regulation VAT reporting requirements topic cash
+respect payments question payments industry payments
+term industry adherence levels reachability rates
+latter interoperability settlement mechanisms
+parallel industry solutions payments
+paper policy interventions fraud viability banking ecosystem India
+forms fraud source resistance transition channels transactions benefits transactions
+policy overview fraud prevention tools paper trends fraud transactions synthesises practices markets
+fraud mechanisms loopholes policy interventions paper history fraud tools forms
+paper need interventions interventions efficacy potential change
+banks blockchain use cases assets product offering revenue streams demands today  s customers
+assets institutions opportunities landscape risks compliance
+paper risks asset payment offering bank risk framework processes RegTech solutions staff
+world COVID19 pandemic number challenges market infrastructures FMIs
+paper issues context payment systems
+role FMIs functioning economy stability conduct policy banks authorities FMIs crisis operations
+paper issues FMIs considers scenarios challenges
+paper experiences compliance function payments business endeavours areas growth
+challenges FinTech company change paper details compliance function asset payments business
+Payment Services Directive PSD2 force EU member states
+aim legislation room innovations technology business models order account holders choices control access account information ways payment transactions
+array services service providers years market phase experimentation
+information range service providers EU business models insights market market infrastructure changes PSD2 banking architecture
+paper population payment institutions authorisation payment initiation account information services EEA
+reach company investors business function actors insights economics banking payments
+data respondents Sikkim region India study relationship characteristics consumers preference payment instruments
+results debitcredit cards online banking payment apps instruments payments category instrument ewallet
+Study subjects payment number reasons convenience incentives offers reluctance payment instruments security concerns internet coverage acceptance levels merchants transaction costs lack knowhow
+results people preferences towards payment systems gender age education occupation income reluctance occupation
+security risks payments paper system transactions funds
+system CodeCash funds parts cash sequence distinct series
+value amount bank cash sequences client funds hashes account verification value deduction transactions
+password transaction CodeCash system secure method transaction transfer yields gains attacker amount losses theft value cash sequences device
+method cash sequences drives method clients option funds type fraud
+Payments Council SCT Inst scheme end users euro payments payment service providers PSPs Single Euro Payments Area
+development scheme years vision work PSPs support payments
+paper SCT Inst scheme  s progress addition developments challenges field payments
+paper mass SCT Inst scheme participants payment accounts area process response benefits scheme end users PSPs
+conversation money currencies ledger technology  secure environment  solution
+paper way
+innovations payments industry decade paper currencies maturity sense payments tools money
+paper building blocks payments application programming interfaces request industry money benefit time market
+paper request model playing field solution providers means money journey
+concept banking recognition service providers ecosystem
+paper banking core building blocks prospects challenges
+European Union  role banking regulations paper Payment Services Directive PSD2 role payment systems EuropeThe paper implications PSD2 Germany case studies platform Solarisbank Islamic bank Insha
+paper light benefits banking ecosystem stakeholders payment system providers introduction banking regulations
+paper reasons differences banking systems world order conditions banking
+examination approaches banking paper parameters success experience
+findings implications regulators banking initiatives
+involvement regulator stages implementation
+framework banking regulators design implementation systems guidance application interface standards infrastructures
+platform infrastructure adoption
+development payment system potential banking
+countries payment systems
+cases transactions
+study challenges payment systems economies Colombia persontobusiness P2B transaction space
+survey merchants study factors merchants propensity payments identifies adoption payment alternatives
+study payment systems strategy P2B space costs immediacy cash levels informality commerce sector micro businesses
+payment systems merchants  expectations respect access services competitiveness bottom line
+Messaging standards payment system institutions sectors
+payment infrastructure modernisation efforts standard ISO data collection turn payment system interoperability efficiency
+adoption standard implications payment systems applications payment systems payments
+benefits services benefits domains standards card payments
+paper benefits limitations ISO sector initiatives experiences implementation
+payment instruments card payments market propositions cards
+question payments transactions
+ground latter
+Nevertheless instruments characteristics use cases advantages
+paper barriers uptake payments challenges adoption
+Pix fast payments scheme rate adoption year operation
+paper speed availability factors convenience reconciliation openness competitiveness safety cost multiplicity use cases
+paper role Central Bank Brazil implementation operation Pix focus Pix rulebook settlement system
+paper shares lessons experience learnings branding user rulebook system participation minimum requirements standardisation fee structure usability use cases governance stakeholder engagement
+paper toolkit banks instant payment system IPS
+structures systems jurisdictions style coordination system operator service providers bank question paper identifies parameters launching IPS model incentives adoption technology
+paper Central Bank Republic Turkey parameters IPS FAST
+arrival COVID19 consumer spending patterns cases trends years transition consumer payments  methods cash cheques payment methods cards wallets payment world economy question payment habits
+economy USA US payments changes way consumption effects cost risk institutions payment networks consumers
+paper data Federal Reserve Bank Philadelphia segments population habits
+conclusions paper trends insights developments area
+exception cash payments  decades
+question  euro  Central Bank demand
+opinion paper question perspectives  features benefits
+perspectives antagonisms centralisation system innovations euro Markets Cryptoassets regulation attractiveness euro vs limitations euro  free charge  question funding competition currencies competition payment instruments
+parts world plan innovations payments crossindustry process chains debate euro  voice
+mind paper euro benefits Europe options payments today  economy
+payment service providers PSPs extension value chain  model
+contrast PSPs PSPs payment processes clients addition merchant processes
+Adyen case illustration paper prospects service model
+study model market share sectors others
+paper issues vacy anonymity context bank currency CBDC
+banks design criteria CBDC balance data tection  s right hand prevention crime
+regard  point view number solutions
+way illustration paper exem plary privacy scenarios
+paper need standards treatment data rules access authorities mandates
+privacy CBDC system paper cen banks honest broker
+respect  s trust acceptance challenge banks
+Proposals Card Payment Scheme ECPS Scheme Credit Transfers SEPA Direct Debit Scheme discussion turn century
+progress phase banks countries implementation Payments Initiative EPI
+paper ECPS turn millennium things
+challenges EPI ECPS success degree European sovereignty payments
+Transaction fees core source revenue payment service providers economy
+Thispaper situation Netherlands banks country transaction costs
+focus payments settlement payment transactions payments leg securities transactions paper principles model cooperation cooperation payments industry sector country
+Consumer payment methods number factors type bill value bill bill online  means income profile payment
+paper convenience speed payments US consumers
+consumers access payment methods cash prepaid cards bills
+consumers person cash bill payments bank account
+Global commerce relies correspondent banking transactions
+cost compliance institutions correspondent banking relationships practice derisking
+cases banks relationships banks
+kind situation risk country level banks alternatives needs systems
+paper work surveys magnitude derisking crossreferences findings surveys Dominican Republic Argentina market failures risk
+results situation countries US dollar solutions correspondent banking
+paper alternatives intervention Federal Reserve Bank New York payments systems US correspondents
+paper proposal Central Bank Digital Currencies CBDC banking standards supports CBDC models online offline finality European PSD2 requirements multifactor customer authentication SCA authors limitations smartphone technologies respect applications role signature creation scenarios
+cases authors review others advantage capabilities secure execution environment control CBDC transaction payee payer devices device transaction
+need anonymity crime requirements CBDC wallet capabilities vice versa
+wallet person  s identity device software chain trust eIDAS EU countries
+authors identity SSI privacy information party
+inclusion impediments growth Southeast Asia
+Access products institutions countries company access phenomenon COVID19 pandemic individuals companies businesses
+paper roots change hold payment service providers businesstobusiness players divide
+Payments services products myriad products services individuals companies empowerment
+paper data Federal Reserve Bank Atlanta  s Survey Diary Consumer Payment Choice rapidresponse surveys spring summer insights consumer cash holdings payments COVID19 pandemic
+paper findings survey US consumers cash holdings time lockdowns
+consumers cash half consumers US spring summer autumn
+spring onethird consumers payment everyone autumn
+People person cash spring autumn
+Payments unemployment benefits cash consumers
+behaviour consumers advance hurricanes consumers amounts cash
+report euro Central Bank ECB point dialogue topicThe initiative euro Commission practices approaches idea identity schemes bank currencies CBDCs concert
+paper ECB  report CBDC initiatives blueprint euro
+paper parties expertise Europe blueprint euro template creation world currency design principles
+Countries regions world market infrastructure rate
+efforts initiatives realtime payment infrastructures areas services
+paper advances payment infrastructure technologies service providers relationship value risk
+payment systems targets fraud cyber attacks scope activity value transactions trillions dollars globe
+risks methods malefactors attacks
+payment system operators infrastructures response threats
+Payment system control governance frameworks accordance guidance regulators marketplace practices
+need liability frameworks payment systems participants owners losses participants liability losses
+paper participants payments ecosystem strength resources losses guidance security community effort incentives parties defences fraud attack stability
+paper entry players FinTechs Big Techs payments banking industry role banks money custodians
+banks paper banks trust anchor economy future relevance business
+roadmap banks role  data  lives customers
+role secure exchange management transactions sectors economy
+roadmap implications banks role
+paper transformation success factors bank executives transformation journey
+acceptance payment instruments retailers India people livelihoods step country  journey cashless economy
+paper technology acceptance model platform drivers developments
+study retailers payment modes point purchase customers
+innovation payments history
+process transformation waves reconfiguration industry
+entrance players FinTech tech companies innovation payments competition innovation efficiency gains
+benefits payment system innovations changes competition dynamics implications consumer protection stability market integrity response supervisors policymakers
+paper transformation services payments market providers FinTech companies technology conglomerates
+paper regulators policymakers nature payment ecosystem issues policymakers consideration approach
+intervention payments adoption challenges transformation trend payments
+collapse Wirecard AG June issues payment service provider PSP market
+years innovation field paper discusses aspects payment process retailers innovations retailers needs
+attention firms SMEs use advancements payment process experience customers finality fund settlement paper importance consideration selling mode size firm implementation costsThe paper innovations instance banks service providers solutions others arrangements involvement providers
+paper importance cooperation agreements SMEs awareness campaigns literacy initiatives SMEs position payment innovations business opportunities
+paper landscape student mobility attention emergence FinTechs education payment space
+Banks participants market remittance payments FinTechs customer pain points transactions paper market demand speed safety security payment instruments
+COVID19 paper FinTechs solutions payment issues students challenges universities beneficiaries interfacesThe issues students parents level frictions challenges payments
+paper technology payments
+policy issues choices cryptocurrencies stablecoins currencies model currency design
+Bitcoin progenies regulators Facebook  proposal Libra stablecoin response regulators
+proposal sector creation currency preserve sovereigns  response launch currencies banks
+China dozens countries bank currencies forms currency
+paper banks forms currencies payment systems
+time money payment systems banks entities currencies underpin payment systems levels
+study factors adoption proximity payments Germany focus Apple Pay
+approach interviews specialists service sector online survey participants
+aim factors growth proximity payment solutions insights characteristics adopters Apple Pay Germany
+authors range factors technology acceptance research aspects brand perception factors differences users nonusers Apple Pay
+differences willingness concerns risk payments perception Apple secure provider trustworthiness technology providers influences gender user  s desire techsavvy
+benefits payments reasons nonusage services experience recommendations
+systems needs economies road
+publication Bitcoin paper prospect currencies issuers intermediaries
+cryptocurrencies status money   technology tech interest stablecoins banks forms currency issuance
+crypto column inches action payments rollout payments schemes adoption money wallets hundreds millions people FinTech revolution
+paper crossroads
+future money tokens system overhaul payments
+data study wallet users Indonesia paper drivers wallet adoption
+study technology acceptance model environment characteristics order intention wallet services
+study drivers intention wallet technology ease use innovativeness
+study wallet adoption experience security norms job relevance
+paper implications research findings wallet providers business strategies acceptance wallet technology
+paper knowledge drivers wallet acceptance TAM2
+paper moneyness currencies sector form monies stablecoins   bank currencies
+monies services FinTech companies use funds
+funds monies
+money claims money money claims money paper development types currencies bank deposits banking practice years
+paper points inconsistent treatment issuers currencies banks issuers deposit claims inconsistency rules provision currencies responsibilities issuance use measures stakeholder rights
+measures regulations respects

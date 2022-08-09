@@ -18,7 +18,10 @@ def dmr_model(documents, timestamps, topic_number, min_cf=3, rm_top=5, iter=1500
     for i in range(0, iter, 10):
         model.train(10)
         print('Iteration: {}\tLog-likelihood: {}'.format(i, model.ll_per_word))
-    print(model.perplexity)
+
+    # Perplexity(혼란도) : 언어 모델의 비교를 위한 정략적 측정 방법, 단일 단어를 예측하는 것에 대한 불확실성
+    #                     그 값이 최소화되는 topic 개수의 경우가 가장 적절한 topic 수
+    print('Perplexity: {}'.format(model.perplexity))
 
     return model
 

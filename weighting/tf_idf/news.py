@@ -4,9 +4,9 @@ import re
 import pandas as pd
 
 ####################
-# 뉴스 분석(네이버 뉴스)
+# 네이버 뉴스
 # - Format : date | press | title | link | content
-# - 기간 : 2019-2021
+# - 기간 : 2017-2021
 # - 총 5257건
 # - 분석대상 : content
 ####################

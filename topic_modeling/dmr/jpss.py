@@ -1,13 +1,14 @@
-import re
-
+import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
+import tomotopy as tp
 from treform.topic_model.pyTextMinerTopicModel import pyTextMinerTopicModel
 
 from _datasets import jpss_data
 from topic_modeling.dmr.commons import dmr_model, topic_scoring, get_topic_labeler
-import tomotopy as tp
-import matplotlib.pyplot as plt
-import numpy as np
+
+# TODO matplotlib → plotly
+# pd.options.plotting.backend = "plotly"
 
 # 생성 토픽 수
 topic_number = 10
@@ -35,7 +36,6 @@ df_dominant_topic_for_each_doc.columns = ['Document_No', 'Dominant_Topic', 'Topi
 df_dominant_topic_for_each_doc.to_csv('./results/jpss_dominent_topic_for_each_doc.csv', index=False,
                                       encoding='utf-8-sig')
 
-
 # topic label, keyword 저장
 labeler = get_topic_labeler(model)
 df_topic_label_keyword = pd.DataFrame(columns=['topic number', 'label', 'keywords'])
@@ -45,22 +45,22 @@ for index, topic_number in enumerate(range(model.k)):
     df_topic_label_keyword.loc[index] = [topic_number, label, keywords]
 df_topic_label_keyword.to_csv('./results/jpss_topic_label_keyword.csv', index=False, encoding='utf-8-sig')
 
-
 # timestamp별 topic score 계산 및 저장
 df_topic_score = topic_scoring(model)
 print(df_topic_score)
 df_topic_score.to_csv('./results/jpss_topic_score.csv', encoding='utf-8-sig')
 
-
 # timestamp별 topic score line graph
-df_topic_score.T.plot(style='.-', grid=True)
+df_topic_score.T.plot(style='.-', grid=True, figsize=(12, 6))
 plt.title('Topic Score')
+plt.ylabel('Importance')
+plt.xlabel('Timestamp')
 ylim = max(abs(min(df_topic_score.min())), abs(max(df_topic_score.max()))) + 0.5
 plt.ylim(-ylim, ylim)
 plt.legend(loc='lower right', fontsize=8)
+plt.tight_layout()
 plt.savefig('./results/jpss_topic_score.png')
 plt.show()
-
 
 # timestamp별 topic distribution graph(using softmax)
 probs = np.exp(model.lambdas - model.lambdas.max(axis=0))
@@ -75,8 +75,11 @@ for topic_number in range(model.k):
 df_probs.columns = topic_label
 df_probs.index = model.metadata_dict
 
-df_probs.plot.barh(stacked=True)
+df_probs.plot.barh(stacked=True, figsize=(12, 6))
 plt.title('Topic Distributions')
+plt.ylabel('Timestamp')
+plt.xlabel('Distribution')
 plt.legend(loc='lower right', fontsize=8)
+plt.tight_layout()
 plt.savefig('./results/jpss_topic_dist.png')
 plt.show()
