@@ -5,7 +5,7 @@ import re
 import pickle
 
 ####################
-# 뉴스 분석(네이버 뉴스)
+# 네이버 뉴스
 # - Format : date | press | title | link | content
 # - 기간 : 2017-2021
 # - 총 8119건
@@ -16,13 +16,23 @@ import pickle
 # 데이터 로드 및 전처리
 # - 전처리 : Tokenizing, POS tagging & filtering, n-gram, Stopword Filtering
 ####################
-def load_for_keyword(target):
+def load_for_keyword(target_index, reuse_preproc=False):
     here = pathlib.Path(__file__).resolve().parent
     loc_data = here / 'news.csv'
     loc_stopwords = here / 'stopwordsKor.txt'
 
-    # 데이터 로드
-    corpus = ptm.CorpusFromCSVFile(loc_data, target)
+    # 기전처리된 파일 사용 시
+    if reuse_preproc:
+        with open(here / 'news_pp_for_keyword.pkl', 'rb') as fin:
+            documents = pickle.load(fin)
+        fin.close()
+        return documents
+
+    df_news = pd.read_csv(loc_data)
+    target = df_news.iloc[:, [target_index]].astype(str).values.tolist()
+    # [[document1], ...] → [document1, ...]
+    target = sum(target, [])
+
     # 전처리
     pipeline = ptm.Pipeline(ptm.splitter.NLTK(),
                             ptm.tokenizer.MeCab('C:\\mecab\\mecab-ko-dic'),
@@ -30,7 +40,7 @@ def load_for_keyword(target):
                             ptm.helper.SelectWordOnly(),
                             ptm.ngram.NGramTokenizer(1, 1),
                             ptm.helper.StopwordFilter(file=loc_stopwords))
-    result = pipeline.processCorpus(corpus.docs[1:])
+    result = pipeline.processCorpus(target)
 
     documents = []
     for doc in result:
@@ -41,6 +51,11 @@ def load_for_keyword(target):
             new_sent = new_sent.strip()
             document += new_sent
         documents.append(document)
+
+    # 전처리된 결과 저장
+    with open(here / 'news_pp_for_keyword.pkl', 'wb') as fout:
+        pickle.dump(documents, fout)
+    fout.close()
 
     return documents
 

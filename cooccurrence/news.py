@@ -4,8 +4,8 @@ import os
 from _datasets import news_data
 
 ####################
-# 뉴스 분석(네이버 뉴스)
-# - Format : date(yyyymm) | original date | press | title | link | content
+# 네이버 뉴스
+# - Format : date | press | title | link | content
 # - 기간 : 2017-2021
 # - 총 8119건
 # - 분석대상 : content

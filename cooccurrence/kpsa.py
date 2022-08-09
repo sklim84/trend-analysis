@@ -4,7 +4,7 @@ import os
 from _datasets import kpsa_data
 
 ####################
-# 지급결제학회 논문 abstract 분석
+# 지급결제학회 논문
 # - Format : id(doi) | year | title | abstract | keywords
 # - 기간 : 2017-2021
 # - 분석대상 : abstract
