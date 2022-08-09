@@ -17,13 +17,24 @@ import treform as ptm
 # 데이터 로드 및 전처리
 # - 전처리 : Tokenizing, POS tagging & filtering, n-gram, Stopword Filtering
 ####################
-def load_for_keyword(target):
+def load_for_keyword(target_index, reuse_preproc=False):
     here = pathlib.Path(__file__).resolve().parent
     loc_data = here / 'jpss.csv'
     loc_stopwords = here / 'stopwordsEng.txt'
 
+    # 기전처리된 파일 사용 시
+    if reuse_preproc:
+        with open(here / 'jpss_pp_for_keyword.pkl', 'rb') as fin:
+            documents = pickle.load(fin)
+        fin.close()
+        return documents
+
     # 데이터 로드
-    corpus = ptm.CorpusFromCSVFile(loc_data, target)
+    df_jpss = pd.read_csv(loc_data)
+    target = df_jpss.iloc[:, [target_index]].astype(str).values.tolist()
+    # [[document1], ...] → [document1, ...]
+    target = sum(target, [])
+
     # 전처리
     pipeline = ptm.Pipeline(ptm.splitter.NLTK(),
                             ptm.tokenizer.Word(),
@@ -32,7 +43,7 @@ def load_for_keyword(target):
                             ptm.helper.SelectWordOnly(),
                             ptm.ngram.NGramTokenizer(1, 1),
                             ptm.helper.StopwordFilter(file=loc_stopwords))
-    result = pipeline.processCorpus(corpus)
+    result = pipeline.processCorpus(target)
 
     documents = []
     for doc in result:
@@ -44,8 +55,57 @@ def load_for_keyword(target):
             document += new_sent
         documents.append(document)
 
+    # 전처리된 결과 저장
+    with open(here / 'jpss_pp_for_keyword.pkl', 'wb') as fout:
+        pickle.dump(documents, fout)
+    fout.close()
+
     return documents
 
+def load_for_coword(target_index, reuse_preproc=False):
+    here = pathlib.Path(__file__).resolve().parent
+    loc_data = here / 'jpss.csv'
+    loc_stopwords = here / 'stopwordsEng.txt'
+
+    # 기전처리된 파일 사용 시
+    if reuse_preproc:
+        with open(here / 'jpss_pp_for_coword.pkl', 'rb') as fin:
+            documents = pickle.load(fin)
+        fin.close()
+        return documents
+
+    # 데이터 로드
+    df_jpss = pd.read_csv(loc_data)
+    target = df_jpss.iloc[:, [target_index]].astype(str).values.tolist()
+    # [[document1], ...] → [document1, ...]
+    target = sum(target, [])
+
+    # 전처리
+    pipeline = ptm.Pipeline(ptm.splitter.NLTK(),
+                            ptm.tokenizer.Word(),
+                            ptm.tagger.NLTK(),
+                            ptm.helper.POSFilter('NN*'),
+                            ptm.helper.SelectWordOnly(),
+                            ptm.ngram.NGramTokenizer(1, 1),
+                            ptm.helper.StopwordFilter(file=loc_stopwords))
+    result = pipeline.processCorpus(target)
+
+    # 구조 변경 : Sentence co-occurrence word를 찾기 위해 하나의 setence를 하나의 document로 변경
+    documents = []
+    for doc in result:
+        for sent in doc:
+            new_sent = ' '.join(sent)
+            new_sent = re.sub('[^A-Za-z0-9가-힣_ ]+', '', new_sent)
+            new_sent = new_sent.strip()
+            if len(new_sent) > 0:
+                documents.append(new_sent)
+
+    # 전처리된 결과 저장
+    with open(here / 'jpss_pp_for_coword.pkl', 'wb') as fout:
+        pickle.dump(documents, fout)
+    fout.close()
+
+    return documents
 
 ####################
 # Term Weighting을 위한 데이터 로드 및 처리
