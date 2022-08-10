@@ -129,7 +129,7 @@ def load_for_term_weighting(label_index, target_index):
     return label.docs[1:], pipeline.processCorpus(content.docs[1:])
 
 
-def load_for_dmr(timestamp_index, target_index, reuse_preproc=False):
+def load_for_topic(timestamp_index, target_index, reuse_preproc=False):
     here = pathlib.Path(__file__).resolve().parent
     loc_data = here / 'jpss.csv'
     loc_stopwords = here / 'stopwordsEng.txt'
@@ -178,7 +178,7 @@ def load_for_dmr(timestamp_index, target_index, reuse_preproc=False):
     return timestamps, documents
 
 
-def load_for_bert(timestamp_index, target_index, reuse_preproc=False):
+def load_for_bertopic(timestamp_index, target_index, reuse_preproc=False):
     here = pathlib.Path(__file__).resolve().parent
     loc_data = here / 'jpss.csv'
     loc_stopwords = here / 'stopwordsEng.txt'

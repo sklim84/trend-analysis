@@ -5,7 +5,7 @@ import tomotopy as tp
 from treform.topic_model.pyTextMinerTopicModel import pyTextMinerTopicModel
 
 from _datasets import jpss_data
-from topic_modeling.dmr.commons import dmr_model, topic_scoring, get_topic_labeler
+from topic_modeling.lda.commons import lda_model, get_topic_labeler
 
 # TODO matplotlib → plotly
 # pd.options.plotting.backend = "plotly"
@@ -13,7 +13,7 @@ from topic_modeling.dmr.commons import dmr_model, topic_scoring, get_topic_label
 # 생성 토픽 수
 topic_number = 10
 # 기존 생성한 모델 재사용여부
-reuse_trained_model = True
+reuse_trained_model = False
 
 model = None
 if reuse_trained_model:
@@ -24,7 +24,7 @@ else:
     timestamps, dataset = jpss_data.load_for_topic(timestamp_index=1, target_index=3)
 
     # DMR 모델 학습 및 저장
-    model = dmr_model(dataset, timestamps, topic_number)
+    model = lda_model(dataset, topic_number)
     model.save('./models/jpss.model', True)
 
 # document별 dominant topic 정보 저장
@@ -44,42 +44,3 @@ for index, topic_number in enumerate(range(model.k)):
     keywords = ' '.join(keyword for keyword, prob in model.get_topic_words(topic_number))
     df_topic_label_keyword.loc[index] = [topic_number, label, keywords]
 df_topic_label_keyword.to_csv('./results/jpss_topic_label_keyword.csv', index=False, encoding='utf-8-sig')
-
-# timestamp별 topic score 계산 및 저장
-df_topic_score = topic_scoring(model)
-print(df_topic_score)
-df_topic_score.to_csv('./results/jpss_topic_score.csv', encoding='utf-8-sig')
-
-# timestamp별 topic score line graph
-df_topic_score.T.plot(style='.-', grid=True, figsize=(12, 6))
-plt.title('Topic Score')
-plt.ylabel('Importance')
-plt.xlabel('Timestamp')
-ylim = max(abs(min(df_topic_score.min())), abs(max(df_topic_score.max()))) + 0.5
-plt.ylim(-ylim, ylim)
-plt.legend(loc='lower right', fontsize=8)
-plt.tight_layout()
-plt.savefig('./results/jpss_topic_score.png')
-plt.show()
-
-# timestamp별 topic distribution graph(using softmax)
-probs = np.exp(model.lambdas - model.lambdas.max(axis=0))
-probs /= probs.sum(axis=0)
-
-df_probs = pd.DataFrame(data=probs).T
-topic_label = []
-labeler = get_topic_labeler(model)
-for topic_number in range(model.k):
-    label = ' '.join([label_tuple[0] for label_tuple in labeler.get_topic_labels(topic_number, top_n=2)])
-    topic_label.append(label)
-df_probs.columns = topic_label
-df_probs.index = model.metadata_dict
-
-df_probs.plot.barh(stacked=True, figsize=(12, 6))
-plt.title('Topic Distributions')
-plt.ylabel('Timestamp')
-plt.xlabel('Distribution')
-plt.legend(loc='lower right', fontsize=8)
-plt.tight_layout()
-plt.savefig('./results/jpss_topic_dist.png')
-plt.show()
