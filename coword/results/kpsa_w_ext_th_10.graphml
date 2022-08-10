@@ -1,130 +1,1360 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="weight" attr.type="double"/>
 <key id="d0" for="node" attr.name="count" attr.type="long"/>
-<graph edgedefault="undirected"><node id="있는">
-  <data key="d0">2003</data>
+<graph edgedefault="undirected"><node id="금융">
+  <data key="d0">1115</data>
 </node>
-<node id="및">
-  <data key="d0">1843</data>
+<node id="서비스">
+  <data key="d0">776</data>
 </node>
-<node id="FinTech">
-  <data key="d0">309</data>
-</node>
-<node id="핀테크">
+<node id="기술">
   <data key="d0">828</data>
 </node>
-<node id="금융">
-  <data key="d0">1083</data>
+<node id="기관">
+  <data key="d0">572</data>
 </node>
-<node id="새로운">
-  <data key="d0">1123</data>
+<node id="시스템">
+  <data key="d0">669</data>
 </node>
-<node id="서비스의">
-  <data key="d0">403</data>
+<node id="블록체인">
+  <data key="d0">521</data>
 </node>
-<node id="법적">
-  <data key="d0">534</data>
+<node id="활용">
+  <data key="d0">587</data>
 </node>
-<node id="관한">
-  <data key="d0">642</data>
+<node id="핀테크">
+  <data key="d0">587</data>
 </node>
-<node id="아니라">
-  <data key="d0">719</data>
+<node id="분야">
+  <data key="d0">445</data>
 </node>
-<node id="뿐만">
-  <data key="d0">210</data>
+<node id="결제">
+  <data key="d0">778</data>
 </node>
-<node id="것으로">
-  <data key="d0">1030</data>
+<node id="혁신">
+  <data key="d0">446</data>
+</node>
+<node id="통화">
+  <data key="d0">501</data>
 </node>
 <node id="디지털">
-  <data key="d0">568</data>
+  <data key="d0">459</data>
 </node>
-<node id="통화의">
-  <data key="d0">228</data>
+<node id="거래">
+  <data key="d0">634</data>
 </node>
-<node id="대해">
-  <data key="d0">808</data>
+<node id="시장">
+  <data key="d0">545</data>
 </node>
-<node id="인공지능">
+<node id="제공">
+  <data key="d0">407</data>
+</node>
+<node id="산업">
+  <data key="d0">420</data>
+</node>
+<node id="기업">
+  <data key="d0">484</data>
+</node>
+<node id="경제">
+  <data key="d0">482</data>
+</node>
+<node id="비즈니스">
+  <data key="d0">281</data>
+</node>
+<node id="가능">
+  <data key="d0">530</data>
+</node>
+<node id="발전">
+  <data key="d0">331</data>
+</node>
+<node id="변화">
+  <data key="d0">463</data>
+</node>
+<node id="발행">
+  <data key="d0">342</data>
+</node>
+<node id="데이터">
+  <data key="d0">415</data>
+</node>
+<node id="은행">
+  <data key="d0">599</data>
+</node>
+<node id="본고">
+  <data key="d0">408</data>
+</node>
+<node id="제도">
+  <data key="d0">524</data>
+</node>
+<node id="정보">
+  <data key="d0">534</data>
+</node>
+<node id="규제">
+  <data key="d0">539</data>
+</node>
+<node id="중앙은행">
+  <data key="d0">291</data>
+</node>
+<node id="무현금">
+  <data key="d0">183</data>
+</node>
+<node id="지급결제">
+  <data key="d0">392</data>
+</node>
+<node id="상품">
+  <data key="d0">244</data>
+</node>
+<node id="영향">
+  <data key="d0">342</data>
+</node>
+<node id="이용">
+  <data key="d0">516</data>
+</node>
+<node id="고객">
+  <data key="d0">299</data>
+</node>
+<node id="소비자">
+  <data key="d0">282</data>
+</node>
+<node id="필요">
+  <data key="d0">427</data>
+</node>
+<node id="자금">
+  <data key="d0">406</data>
+</node>
+<node id="대응">
+  <data key="d0">390</data>
+</node>
+<node id="경쟁">
+  <data key="d0">206</data>
+</node>
+<node id="분산">
+  <data key="d0">211</data>
+</node>
+<node id="법">
+  <data key="d0">412</data>
+</node>
+<node id="환경">
+  <data key="d0">297</data>
+</node>
+<node id="업계">
+  <data key="d0">234</data>
+</node>
+<node id="중요">
   <data key="d0">298</data>
 </node>
-<node id="AI">
+<node id="정책">
+  <data key="d0">417</data>
+</node>
+<node id="과제">
+  <data key="d0">329</data>
+</node>
+<node id="빅">
+  <data key="d0">158</data>
+</node>
+<node id="대장">
+  <data key="d0">161</data>
+</node>
+<node id="연구">
+  <data key="d0">448</data>
+</node>
+<node id="개발">
+  <data key="d0">264</data>
+</node>
+<node id="검토">
+  <data key="d0">404</data>
+</node>
+<node id="구조">
+  <data key="d0">243</data>
+</node>
+<node id="도입">
+  <data key="d0">301</data>
+</node>
+<node id="수단">
+  <data key="d0">226</data>
+</node>
+<node id="세계">
+  <data key="d0">299</data>
+</node>
+<node id="나라">
+  <data key="d0">320</data>
+</node>
+<node id="비용">
+  <data key="d0">309</data>
+</node>
+<node id="인프라">
+  <data key="d0">202</data>
+</node>
+<node id="화폐">
+  <data key="d0">215</data>
+</node>
+<node id="대형">
+  <data key="d0">138</data>
+</node>
+<node id="효율">
+  <data key="d0">298</data>
+</node>
+<node id="송금">
+  <data key="d0">174</data>
+</node>
+<node id="절감">
+  <data key="d0">134</data>
+</node>
+<node id="현금">
+  <data key="d0">249</data>
+</node>
+<node id="보급">
+  <data key="d0">245</data>
+</node>
+<node id="전체">
+  <data key="d0">220</data>
+</node>
+<node id="자산">
+  <data key="d0">274</data>
+</node>
+<node id="암호">
+  <data key="d0">162</data>
+</node>
+<node id="방향">
+  <data key="d0">263</data>
+</node>
+<node id="보호">
+  <data key="d0">274</data>
+</node>
+<node id="방식">
   <data key="d0">256</data>
 </node>
-<node id="위한">
-  <data key="d0">694</data>
-</node>
-<node id="것이">
-  <data key="d0">841</data>
-</node>
-<node id="영향을">
-  <data key="d0">474</data>
-</node>
-<node id="미치는">
+<node id="국제">
   <data key="d0">313</data>
 </node>
-<node id="서비스를">
-  <data key="d0">369</data>
+<node id="업자">
+  <data key="d0">135</data>
 </node>
-<node id="줄">
-  <data key="d0">167</data>
+<node id="교환">
+  <data key="d0">159</data>
 </node>
-<edge source="있는" target="및">
-  <data key="d1">23.0</data>
+<node id="전자">
+  <data key="d0">307</data>
+</node>
+<node id="미국">
+  <data key="d0">287</data>
+</node>
+<node id="관리">
+  <data key="d0">312</data>
+</node>
+<node id="암호화폐">
+  <data key="d0">264</data>
+</node>
+<node id="사법">
+  <data key="d0">96</data>
+</node>
+<node id="투자">
+  <data key="d0">280</data>
+</node>
+<node id="전통">
+  <data key="d0">160</data>
+</node>
+<node id="개선">
+  <data key="d0">264</data>
+</node>
+<node id="인공지능">
+  <data key="d0">266</data>
+</node>
+<node id="인간">
+  <data key="d0">115</data>
+</node>
+<node id="구축">
+  <data key="d0">234</data>
+</node>
+<node id="세탁">
+  <data key="d0">153</data>
+</node>
+<node id="진행">
+  <data key="d0">253</data>
+</node>
+<node id="법정">
+  <data key="d0">132</data>
+</node>
+<node id="오픈">
+  <data key="d0">204</data>
+</node>
+<node id="안정">
+  <data key="d0">175</data>
+</node>
+<node id="진보">
+  <data key="d0">107</data>
+</node>
+<node id="보안">
+  <data key="d0">272</data>
+</node>
+<node id="기록">
+  <data key="d0">136</data>
+</node>
+<node id="이노베이션">
+  <data key="d0">172</data>
+</node>
+<node id="업무">
+  <data key="d0">238</data>
+</node>
+<node id="지급">
+  <data key="d0">250</data>
+</node>
+<node id="사이버">
+  <data key="d0">146</data>
+</node>
+<node id="리스크">
+  <data key="d0">206</data>
+</node>
+<node id="적용">
+  <data key="d0">205</data>
+</node>
+<node id="참가">
+  <data key="d0">163</data>
+</node>
+<node id="분석">
+  <data key="d0">328</data>
+</node>
+<node id="등장">
+  <data key="d0">195</data>
+</node>
+<node id="기반">
+  <data key="d0">242</data>
+</node>
+<node id="카드">
+  <data key="d0">258</data>
+</node>
+<node id="관계">
+  <data key="d0">213</data>
+</node>
+<node id="스테이블">
+  <data key="d0">123</data>
+</node>
+<node id="코인">
+  <data key="d0">130</data>
+</node>
+<node id="사례">
+  <data key="d0">225</data>
+</node>
+<node id="이용자">
+  <data key="d0">262</data>
+</node>
+<node id="모바일">
+  <data key="d0">172</data>
+</node>
+<node id="가운데">
+  <data key="d0">181</data>
+</node>
+<node id="분산원장">
+  <data key="d0">114</data>
+</node>
+<edge source="금융" target="서비스">
+  <data key="d1">88.0</data>
 </edge>
-<edge source="있는" target="새로운">
-  <data key="d1">13.0</data>
+<edge source="금융" target="기술">
+  <data key="d1">80.0</data>
 </edge>
-<edge source="있는" target="것으로">
-  <data key="d1">11.0</data>
+<edge source="금융" target="기관">
+  <data key="d1">78.0</data>
 </edge>
-<edge source="있는" target="대해">
-  <data key="d1">10.0</data>
+<edge source="금융" target="시스템">
+  <data key="d1">60.0</data>
 </edge>
-<edge source="있는" target="금융">
-  <data key="d1">10.0</data>
+<edge source="금융" target="활용">
+  <data key="d1">53.0</data>
 </edge>
-<edge source="및" target="것이">
-  <data key="d1">10.0</data>
+<edge source="금융" target="핀테크">
+  <data key="d1">53.0</data>
 </edge>
-<edge source="및" target="것으로">
-  <data key="d1">10.0</data>
+<edge source="금융" target="분야">
+  <data key="d1">44.0</data>
 </edge>
-<edge source="FinTech" target="핀테크">
+<edge source="금융" target="결제">
+  <data key="d1">42.0</data>
+</edge>
+<edge source="금융" target="혁신">
+  <data key="d1">38.0</data>
+</edge>
+<edge source="금융" target="거래">
+  <data key="d1">37.0</data>
+</edge>
+<edge source="금융" target="시장">
+  <data key="d1">36.0</data>
+</edge>
+<edge source="금융" target="블록체인">
+  <data key="d1">36.0</data>
+</edge>
+<edge source="금융" target="산업">
+  <data key="d1">35.0</data>
+</edge>
+<edge source="금융" target="기업">
+  <data key="d1">34.0</data>
+</edge>
+<edge source="금융" target="경제">
+  <data key="d1">31.0</data>
+</edge>
+<edge source="금융" target="비즈니스">
+  <data key="d1">29.0</data>
+</edge>
+<edge source="금융" target="가능">
+  <data key="d1">29.0</data>
+</edge>
+<edge source="금융" target="발전">
+  <data key="d1">28.0</data>
+</edge>
+<edge source="금융" target="변화">
+  <data key="d1">28.0</data>
+</edge>
+<edge source="금융" target="제공">
+  <data key="d1">27.0</data>
+</edge>
+<edge source="금융" target="디지털">
+  <data key="d1">26.0</data>
+</edge>
+<edge source="금융" target="본고">
+  <data key="d1">25.0</data>
+</edge>
+<edge source="금융" target="제도">
+  <data key="d1">24.0</data>
+</edge>
+<edge source="금융" target="정보">
+  <data key="d1">24.0</data>
+</edge>
+<edge source="금융" target="데이터">
+  <data key="d1">24.0</data>
+</edge>
+<edge source="금융" target="규제">
+  <data key="d1">22.0</data>
+</edge>
+<edge source="금융" target="상품">
+  <data key="d1">21.0</data>
+</edge>
+<edge source="금융" target="영향">
+  <data key="d1">21.0</data>
+</edge>
+<edge source="금융" target="고객">
+  <data key="d1">20.0</data>
+</edge>
+<edge source="금융" target="소비자">
+  <data key="d1">20.0</data>
+</edge>
+<edge source="금융" target="필요">
+  <data key="d1">20.0</data>
+</edge>
+<edge source="금융" target="대응">
+  <data key="d1">20.0</data>
+</edge>
+<edge source="금융" target="경쟁">
+  <data key="d1">19.0</data>
+</edge>
+<edge source="금융" target="업계">
   <data key="d1">18.0</data>
 </edge>
-<edge source="핀테크" target="금융">
-  <data key="d1">11.0</data>
+<edge source="금융" target="은행">
+  <data key="d1">18.0</data>
 </edge>
-<edge source="금융" target="새로운">
+<edge source="금융" target="중요">
+  <data key="d1">18.0</data>
+</edge>
+<edge source="금융" target="정책">
+  <data key="d1">18.0</data>
+</edge>
+<edge source="금융" target="통화">
+  <data key="d1">17.0</data>
+</edge>
+<edge source="금융" target="과제">
+  <data key="d1">17.0</data>
+</edge>
+<edge source="금융" target="개발">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="금융" target="구조">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="금융" target="도입">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="금융" target="이용">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="금융" target="세계">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="금융" target="자금">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="금융" target="비용">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="금융" target="인프라">
   <data key="d1">14.0</data>
 </edge>
-<edge source="금융" target="서비스의">
+<edge source="금융" target="대형">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="금융" target="효율">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="금융" target="검토">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="금융" target="환경">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="금융" target="법">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="금융" target="나라">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="금융" target="연구">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="금융" target="전체">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="금융" target="방향">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="금융" target="국제">
   <data key="d1">12.0</data>
 </edge>
-<edge source="금융" target="서비스를">
-  <data key="d1">10.0</data>
+<edge source="금융" target="미국">
+  <data key="d1">12.0</data>
 </edge>
-<edge source="새로운" target="위한">
-  <data key="d1">10.0</data>
+<edge source="금융" target="보호">
+  <data key="d1">12.0</data>
 </edge>
-<edge source="법적" target="관한">
+<edge source="금융" target="보급">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="금융" target="투자">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="금융" target="전통">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="금융" target="구축">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="금융" target="송금">
   <data key="d1">11.0</data>
 </edge>
-<edge source="아니라" target="뿐만">
+<edge source="금융" target="중앙은행">
   <data key="d1">11.0</data>
 </edge>
-<edge source="디지털" target="통화의">
+<edge source="금융" target="안정">
   <data key="d1">11.0</data>
 </edge>
-<edge source="인공지능" target="AI">
+<edge source="금융" target="업무">
   <data key="d1">10.0</data>
 </edge>
-<edge source="영향을" target="미치는">
+<edge source="금융" target="화폐">
   <data key="d1">10.0</data>
 </edge>
-<edge source="영향을" target="줄">
+<edge source="금융" target="분석">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="금융" target="기반">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="금융" target="지급결제">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="금융" target="관계">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="금융" target="자산">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="금융" target="보안">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="금융" target="가운데">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="서비스" target="핀테크">
+  <data key="d1">41.0</data>
+</edge>
+<edge source="서비스" target="기술">
+  <data key="d1">38.0</data>
+</edge>
+<edge source="서비스" target="결제">
+  <data key="d1">37.0</data>
+</edge>
+<edge source="서비스" target="제공">
+  <data key="d1">36.0</data>
+</edge>
+<edge source="서비스" target="활용">
+  <data key="d1">26.0</data>
+</edge>
+<edge source="서비스" target="시스템">
+  <data key="d1">23.0</data>
+</edge>
+<edge source="서비스" target="시장">
+  <data key="d1">22.0</data>
+</edge>
+<edge source="서비스" target="기관">
+  <data key="d1">21.0</data>
+</edge>
+<edge source="서비스" target="혁신">
+  <data key="d1">20.0</data>
+</edge>
+<edge source="서비스" target="상품">
+  <data key="d1">20.0</data>
+</edge>
+<edge source="서비스" target="고객">
+  <data key="d1">19.0</data>
+</edge>
+<edge source="서비스" target="기업">
+  <data key="d1">18.0</data>
+</edge>
+<edge source="서비스" target="변화">
+  <data key="d1">17.0</data>
+</edge>
+<edge source="서비스" target="정보">
+  <data key="d1">17.0</data>
+</edge>
+<edge source="서비스" target="은행">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="서비스" target="소비자">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="서비스" target="분야">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="서비스" target="발전">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="서비스" target="지급결제">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="서비스" target="데이터">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="서비스" target="산업">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="서비스" target="대응">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="서비스" target="경쟁">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="서비스" target="디지털">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="서비스" target="중요">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="서비스" target="개발">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="서비스" target="오픈">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="서비스" target="지급">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="서비스" target="환경">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="서비스" target="본고">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="서비스" target="이용자">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="서비스" target="전자">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="기술" target="블록체인">
+  <data key="d1">57.0</data>
+</edge>
+<edge source="기술" target="활용">
+  <data key="d1">45.0</data>
+</edge>
+<edge source="기술" target="기관">
+  <data key="d1">27.0</data>
+</edge>
+<edge source="기술" target="혁신">
+  <data key="d1">26.0</data>
+</edge>
+<edge source="기술" target="시스템">
+  <data key="d1">25.0</data>
+</edge>
+<edge source="기술" target="변화">
+  <data key="d1">24.0</data>
+</edge>
+<edge source="기술" target="분야">
+  <data key="d1">24.0</data>
+</edge>
+<edge source="기술" target="규제">
+  <data key="d1">24.0</data>
+</edge>
+<edge source="기술" target="거래">
+  <data key="d1">23.0</data>
+</edge>
+<edge source="기술" target="결제">
+  <data key="d1">22.0</data>
+</edge>
+<edge source="기술" target="산업">
+  <data key="d1">21.0</data>
+</edge>
+<edge source="기술" target="핀테크">
+  <data key="d1">21.0</data>
+</edge>
+<edge source="기술" target="시장">
+  <data key="d1">21.0</data>
+</edge>
+<edge source="기술" target="이용">
+  <data key="d1">20.0</data>
+</edge>
+<edge source="기술" target="디지털">
+  <data key="d1">20.0</data>
+</edge>
+<edge source="기술" target="분산">
+  <data key="d1">19.0</data>
+</edge>
+<edge source="기술" target="본고">
+  <data key="d1">18.0</data>
+</edge>
+<edge source="기술" target="가능">
+  <data key="d1">18.0</data>
+</edge>
+<edge source="기술" target="정보">
+  <data key="d1">18.0</data>
+</edge>
+<edge source="기술" target="은행">
+  <data key="d1">17.0</data>
+</edge>
+<edge source="기술" target="발전">
+  <data key="d1">17.0</data>
+</edge>
+<edge source="기술" target="기업">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="기술" target="연구">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="기술" target="검토">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="기술" target="법">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="기술" target="개발">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="기술" target="경제">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="기술" target="데이터">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="기술" target="비용">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="기술" target="대장">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="기술" target="환경">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="기술" target="지급결제">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="기술" target="비즈니스">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="기술" target="암호화폐">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="기술" target="진행">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="기술" target="제공">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="기술" target="제도">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="기술" target="진보">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="기술" target="인프라">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="기술" target="도입">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="기술" target="대응">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="기술" target="절감">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="기술" target="적용">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="기술" target="영향">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="기술" target="통화">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="기술" target="분산원장">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="기술" target="구조">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="기술" target="관리">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="기관" target="기업">
+  <data key="d1">26.0</data>
+</edge>
+<edge source="기관" target="핀테크">
+  <data key="d1">22.0</data>
+</edge>
+<edge source="기관" target="활용">
+  <data key="d1">18.0</data>
+</edge>
+<edge source="기관" target="시스템">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="기관" target="결제">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="기관" target="고객">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="기관" target="블록체인">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="기관" target="대형">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="기관" target="비즈니스">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="기관" target="변화">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="기관" target="미국">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="기관" target="거래">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="기관" target="시장">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="기관" target="분야">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="시스템" target="결제">
+  <data key="d1">32.0</data>
+</edge>
+<edge source="시스템" target="지급결제">
+  <data key="d1">21.0</data>
+</edge>
+<edge source="시스템" target="핀테크">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="시스템" target="은행">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="시스템" target="가능">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="시스템" target="기업">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="시스템" target="활용">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="시스템" target="비용">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="시스템" target="블록체인">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="시스템" target="관리">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="시스템" target="제도">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="시스템" target="거래">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="시스템" target="나라">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="시스템" target="참가">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="시스템" target="효율">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="시스템" target="시장">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="블록체인" target="가능">
+  <data key="d1">21.0</data>
+</edge>
+<edge source="블록체인" target="분야">
+  <data key="d1">20.0</data>
+</edge>
+<edge source="블록체인" target="활용">
+  <data key="d1">19.0</data>
+</edge>
+<edge source="블록체인" target="거래">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="블록체인" target="산업">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="블록체인" target="결제">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="블록체인" target="분산">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="블록체인" target="기록">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="블록체인" target="본고">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="블록체인" target="대장">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="블록체인" target="혁신">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="블록체인" target="암호화폐">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="활용" target="분야">
+  <data key="d1">28.0</data>
+</edge>
+<edge source="활용" target="데이터">
+  <data key="d1">25.0</data>
+</edge>
+<edge source="활용" target="핀테크">
+  <data key="d1">22.0</data>
+</edge>
+<edge source="활용" target="기업">
+  <data key="d1">18.0</data>
+</edge>
+<edge source="활용" target="산업">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="활용" target="빅">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="활용" target="업계">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="활용" target="검토">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="활용" target="가능">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="활용" target="결제">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="활용" target="세계">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="활용" target="대응">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="활용" target="효율">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="활용" target="사례">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="핀테크" target="기업">
+  <data key="d1">23.0</data>
+</edge>
+<edge source="핀테크" target="산업">
+  <data key="d1">22.0</data>
+</edge>
+<edge source="핀테크" target="발전">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="핀테크" target="결제">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="핀테크" target="혁신">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="핀테크" target="시장">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="핀테크" target="비즈니스">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="핀테크" target="경쟁">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="핀테크" target="미국">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="핀테크" target="본고">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="핀테크" target="변화">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="핀테크" target="제공">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="핀테크" target="정보">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="핀테크" target="대응">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="분야" target="산업">
+  <data key="d1">17.0</data>
+</edge>
+<edge source="분야" target="결제">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="결제" target="은행">
+  <data key="d1">25.0</data>
+</edge>
+<edge source="결제" target="통화">
+  <data key="d1">22.0</data>
+</edge>
+<edge source="결제" target="무현금">
+  <data key="d1">22.0</data>
+</edge>
+<edge source="결제" target="자금">
+  <data key="d1">20.0</data>
+</edge>
+<edge source="결제" target="거래">
+  <data key="d1">18.0</data>
+</edge>
+<edge source="결제" target="이용">
+  <data key="d1">17.0</data>
+</edge>
+<edge source="결제" target="디지털">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="결제" target="지급결제">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="결제" target="수단">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="결제" target="나라">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="결제" target="송금">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="결제" target="현금">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="결제" target="보급">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="결제" target="연구">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="결제" target="방식">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="결제" target="제도">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="결제" target="효율">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="결제" target="전자">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="결제" target="경제">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="결제" target="혁신">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="결제" target="시장">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="결제" target="기업">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="결제" target="대응">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="결제" target="비용">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="결제" target="국제">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="결제" target="규제">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="결제" target="등장">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="결제" target="과제">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="결제" target="정보">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="결제" target="중앙은행">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="결제" target="이용자">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="결제" target="모바일">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="혁신" target="디지털">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="혁신" target="변화">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="혁신" target="제도">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="통화" target="디지털">
+  <data key="d1">37.0</data>
+</edge>
+<edge source="통화" target="발행">
+  <data key="d1">27.0</data>
+</edge>
+<edge source="통화" target="중앙은행">
+  <data key="d1">22.0</data>
+</edge>
+<edge source="통화" target="은행">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="통화" target="국제">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="통화" target="법정">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="통화" target="이용">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="통화" target="거래">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="디지털" target="중앙은행">
+  <data key="d1">21.0</data>
+</edge>
+<edge source="디지털" target="발행">
+  <data key="d1">18.0</data>
+</edge>
+<edge source="디지털" target="화폐">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="디지털" target="은행">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="거래" target="이용">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="거래" target="분산">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="거래" target="규제">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="거래" target="가능">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="거래" target="법">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="시장" target="변화">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="시장" target="발전">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="시장" target="지급결제">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="시장" target="경제">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="제공" target="정보">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="산업" target="인공지능">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="산업" target="경제">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="경제" target="제도">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="경제" target="은행">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="비즈니스" target="고객">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="가능" target="데이터">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="변화" target="환경">
+  <data key="d1">19.0</data>
+</edge>
+<edge source="변화" target="제도">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="변화" target="지급결제">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="변화" target="정책">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="발행" target="중앙은행">
+  <data key="d1">19.0</data>
+</edge>
+<edge source="데이터" target="빅">
+  <data key="d1">17.0</data>
+</edge>
+<edge source="은행" target="제도">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="본고" target="검토">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="본고" target="법">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="제도" target="지급결제">
+  <data key="d1">21.0</data>
+</edge>
+<edge source="제도" target="법">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="제도" target="규제">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="제도" target="개선">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="제도" target="연구">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="제도" target="정책">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="정보" target="이용">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="정보" target="보안">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="규제" target="법">
+  <data key="d1">19.0</data>
+</edge>
+<edge source="규제" target="보호">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="규제" target="암호화폐">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="규제" target="환경">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="규제" target="필요">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="무현금" target="현금">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="지급결제" target="정책">
+  <data key="d1">15.0</data>
+</edge>
+<edge source="지급결제" target="연구">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="지급결제" target="환경">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="상품" target="고객">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="이용" target="분산">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="이용" target="대장">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="이용" target="현금">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="자금" target="세탁">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="자금" target="암호화폐">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="분산" target="대장">
+  <data key="d1">16.0</data>
+</edge>
+<edge source="정책" target="연구">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="연구" target="방향">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="비용" target="절감">
+  <data key="d1">14.0</data>
+</edge>
+<edge source="비용" target="카드">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="자산" target="암호">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="업자" target="교환">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="업자" target="암호화폐">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="교환" target="암호화폐">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="관리" target="리스크">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="암호화폐" target="사법">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="인공지능" target="인간">
+  <data key="d1">12.0</data>
+</edge>
+<edge source="오픈" target="이노베이션">
+  <data key="d1">11.0</data>
+</edge>
+<edge source="보안" target="사이버">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="스테이블" target="코인">
   <data key="d1">10.0</data>
 </edge>
 </graph></graphml>
