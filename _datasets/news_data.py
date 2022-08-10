@@ -165,7 +165,7 @@ def load_for_term_burstiness(target_index, ngram_min, ngram_max):
     return df
 
 
-def load_for_dmr(timestamp_index, target_index, timestamp_pattern='%Y', reuse_preproc=False):
+def load_for_topic(timestamp_index, target_index, timestamp_pattern='%Y', reuse_preproc=False):
     here = pathlib.Path(__file__).resolve().parent
     loc_data = here / 'news.csv'
     loc_stopwords = here / 'stopwordsKor.txt'
@@ -214,7 +214,7 @@ def load_for_dmr(timestamp_index, target_index, timestamp_pattern='%Y', reuse_pr
     return timestamps, documents
 
 
-def load_for_bert(timestamp_index, target_index, timestamp_pattern='%Y', reuse_preproc=False):
+def load_for_bertopic(timestamp_index, target_index, timestamp_pattern='%Y', reuse_preproc=False):
     here = pathlib.Path(__file__).resolve().parent
     loc_data = here / 'news.csv'
     loc_stopwords = here / 'stopwordsKor.txt'

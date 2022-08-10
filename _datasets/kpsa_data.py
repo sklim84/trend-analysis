@@ -124,7 +124,7 @@ def load_for_term_weighting(label_index, target_index):
                             ptm.helper.StopwordFilter(file=loc_stopwords))
     return label.docs[1:], pipeline.processCorpus(content.docs[1:])
 
-def load_for_dmr(timestamp_index, target_index, timestamp_pattern='%Y', reuse_preproc=False):
+def load_for_topic(timestamp_index, target_index, timestamp_pattern='%Y', reuse_preproc=False):
     here = pathlib.Path(__file__).resolve().parent
     loc_data = here / 'kpsa.csv'
     loc_stopwords = here / 'stopwordsKor.txt'
@@ -172,7 +172,7 @@ def load_for_dmr(timestamp_index, target_index, timestamp_pattern='%Y', reuse_pr
     return timestamps, documents
 
 
-def load_for_bert(timestamp_index, target_index, reuse_preproc=False):
+def load_for_bertopic(timestamp_index, target_index, reuse_preproc=False):
     here = pathlib.Path(__file__).resolve().parent
     loc_data = here / 'kpsa.csv'
     loc_stopwords = here / 'stopwordsKor.txt'
@@ -219,4 +219,4 @@ def load_for_bert(timestamp_index, target_index, reuse_preproc=False):
 
     return timestamps, documents
 
-load_for_bert(1, 3)
+load_for_bertopic(1, 3)
