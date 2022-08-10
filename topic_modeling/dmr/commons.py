@@ -3,7 +3,6 @@ import sys
 import pandas as pd
 import numpy as np
 
-# dmr 모델 생성 및 학습
 # DMR 모델 생성 및 학습
 def dmr_model(documents, timestamps, topic_number, min_cf=3, rm_top=5, iter=1500):
 
@@ -12,6 +11,7 @@ def dmr_model(documents, timestamps, topic_number, min_cf=3, rm_top=5, iter=1500
         model.add_doc(document, metadata=timestamp)
     model.burn_in = 100
 
+    model.train(0)
     print('Num docs:', len(model.docs), ', Vocab size:', model.num_vocabs, ', Num words:', model.num_words)
     print('Removed top words:', model.removed_top_words)
     print('Training...', file=sys.stderr, flush=True)

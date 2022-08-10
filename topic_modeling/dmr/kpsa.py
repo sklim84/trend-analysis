@@ -19,7 +19,7 @@ if reuse_trained_model:
     model = tp.DMRModel.load('./models/kpsa.model')
 else:
     # 데이터 로드 및 전처리
-    timestamps, dataset = kpsa_data.load_for_dmr(timestamp_index=1, target_index=3)
+    timestamps, dataset = kpsa_data.load_for_topic(timestamp_index=1, target_index=3)
 
     # DMR 모델 학습 및 저장
     model = dmr_model(dataset, timestamps, topic_number)

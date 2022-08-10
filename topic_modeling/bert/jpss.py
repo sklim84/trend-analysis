@@ -4,7 +4,7 @@ from bertopic import BERTopic
 from _datasets import jpss_data
 
 # 데이터 로드
-timestamps, dataset = jpss_data.load_for_bert(1, 3)
+timestamps, dataset = jpss_data.load_for_bertopic(1, 3)
 
 # 기존 생성한 모델 재사용여부
 reuse_trained_model = True
