@@ -11,7 +11,7 @@ from _datasets import kpsa_data
 ####################
 
 # 데이터 로드 및 전처리
-dataset = kpsa_data.load_for_coword(target_index=3, reuse_preproc=True)
+dataset = kpsa_data.load_for_coword(target_index=3, reuse_preproc=False)
 
 ####################
 # co-occurrence 계산 및 graphml 생성
