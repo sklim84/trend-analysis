@@ -80,8 +80,7 @@ def load_for_coword(target_index, reuse_preproc=False):
 
     # 전처리
     pipeline = ptm.Pipeline(ptm.splitter.NLTK(),
-                            ptm.tokenizer.Word(),
-                            ptm.tagger.NLTK(),
+                            ptm.tokenizer.MeCab('C:\\mecab\\mecab-ko-dic'),
                             ptm.helper.POSFilter('NN*'),
                             ptm.helper.SelectWordOnly(),
                             ptm.ngram.NGramTokenizer(1, 1),
