@@ -1,14 +1,9 @@
-import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 import tomotopy as tp
 from treform.topic_model.pyTextMinerTopicModel import pyTextMinerTopicModel
 
 from _datasets import jpss_data
 from topic_modeling.lda.commons import lda_model, get_topic_labeler
-
-# TODO matplotlib → plotly
-# pd.options.plotting.backend = "plotly"
 
 # 생성 토픽 수
 topic_number = 10
