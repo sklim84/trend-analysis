@@ -19,6 +19,8 @@ def lda_model(documents, topic_number, min_cf=3, rm_top=5, iter=1500):
         model.train(10)
         print('Iteration: {}\tLog-likelihood: {}'.format(i, model.ll_per_word))
 
+    print('Perplexity: {}'.format(model.perplexity))
+
     return model
 
 
