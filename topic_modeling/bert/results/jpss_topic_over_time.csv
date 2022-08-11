@@ -1,16 +1,20 @@
 ,Topic,Words,Frequency,Timestamp
-0,-1,"payment, payments, paper, use, adoption",14,2016-12-30 12:56:09.600
-1,0,"payments, payment, paper, services, money",15,2016-12-30 12:56:09.600
-2,1,"fraud, security, policy, victims, chain",4,2016-12-30 12:56:09.600
-3,-1,"cash, payments, paper, henry, publications",8,2017-10-20 04:48:00.000
-4,0,"payment, payments, paper, banks, money",20,2017-10-20 04:48:00.000
-5,1,"fraud, detection, cent, identity, customer",3,2017-10-20 04:48:00.000
-6,-1,"paper, payments, payment, cash, banks",14,2018-10-20 10:48:00.000
-7,0,"payments, paper, payment, market, banks",12,2018-10-20 10:48:00.000
-8,1,"fraud, measures, security, prevention, availability",1,2018-10-20 10:48:00.000
-9,-1,"banking, paper, payments, payment, banks",12,2019-10-20 16:48:00.000
-10,0,"payment, payments, paper, services, systems",25,2019-10-20 16:48:00.000
-11,1,"fraud, interventions, transactions, funds, sequences",2,2019-10-20 16:48:00.000
-12,-1,"paper, payments, banking, payment, scheme",8,2020-10-19 22:48:00.000
-13,0,"paper, payment, payments, banks, currencies",25,2020-10-19 22:48:00.000
-14,1,"fraud, losses, participants, liability, attacks",1,2020-10-19 22:48:00.000
+0,-1,"payments, payment, paper, card, use",18,2016.996
+1,0,"paper, bank, resolution, money, singapore",4,2016.996
+2,1,"payment, services, payments, value, infrastructure",7,2016.996
+3,2,"fraud, security, policy, victims, chain",4,2016.996
+4,-1,"payments, payment, paper, cash, stewart",14,2017.8
+5,0,"money, paper, banks, assets, lei",7,2017.8
+6,1,"payment, services, payments, market, psd2",7,2017.8
+7,2,"fraud, detection, cent, identity, customer",3,2017.8
+8,-1,"payments, paper, payment, use, banks",21,2018.8
+9,0,"paper, preference, banks, cash, transactions",5,2018.8
+10,2,"fraud, measures, security, prevention, availability",1,2018.8
+11,-1,"payment, payments, paper, banking, systems",18,2019.8
+12,0,"paper, cash, money, bank, currencies",15,2019.8
+13,1,"psd2, payment, market, services, payments",4,2019.8
+14,2,"fraud, interventions, transactions, funds, sequences",2,2019.8
+15,-1,"payment, payments, paper, banking, banks",23,2020.8
+16,0,"paper, currencies, money, bank, banks",8,2020.8
+17,1,"infrastructure, payment, market, service, collapse",2,2020.8
+18,2,"fraud, losses, participants, liability, attacks",1,2020.8

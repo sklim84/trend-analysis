@@ -32,11 +32,11 @@ fig = topic_model.visualize_barchart()
 fig.write_html("./results/jpss_topic_keywords_score.html")
 
 # topic similarity heatmap
-fig = topic_model.visualize_heatmap()
+fig = topic_model.visualize_heatmap(top_n_topics=10)
 fig.write_html("./results/jpss_topic_similarity_heatmap.html")
 
 # dynamic topic modeling (over time)
 topics_over_time = topic_model.topics_over_time(dataset, topics, timestamps, nr_bins=20)
 topics_over_time.to_csv('./results/jpss_topic_over_time.csv')
-fig = topic_model.visualize_topics_over_time(topics_over_time, top_n_topics=3)
+fig = topic_model.visualize_topics_over_time(topics_over_time, top_n_topics=10)
 fig.write_html("./results/jpss_topic_over_time.html")

@@ -7,7 +7,7 @@ from _datasets import kpsa_data
 timestamps, dataset = kpsa_data.load_for_bertopic(1, 3)
 
 # 기존 생성한 모델 재사용여부
-reuse_trained_model = False
+reuse_trained_model = True
 if reuse_trained_model:
     topic_model = BERTopic.load('./models/kpsa.model')
 else:
@@ -25,10 +25,10 @@ for topic_id in dict_topics:
     keywords = ' '.join(list(zip(*topic))[0])
     df_topic_info.loc[df_topic_info['Topic'] == topic_id, 'Keywords'] = keywords
 print(df_topic_info)
-df_topic_info.to_csv('./results/kpsatopic_info.csv', encoding='utf-8-sig')
+df_topic_info.to_csv('./results/kpsa_topic_info.csv', encoding='utf-8-sig')
 
 # topic keyword score bar chart
-fig = topic_model.visualize_barchart()
+fig = topic_model.visualize_heatmap(top_n_topics=10)
 fig.write_html("./results/kpsa_topic_keywords_score.html")
 
 # topic similarity heatmap
@@ -38,5 +38,5 @@ fig.write_html("./results/kpsa_topic_similarity_heatmap.html")
 # dynamic topic modeling (over time)
 topics_over_time = topic_model.topics_over_time(dataset, topics, timestamps, nr_bins=20)
 topics_over_time.to_csv('./results/kpsa_topic_over_time.csv')
-fig = topic_model.visualize_topics_over_time(topics_over_time, top_n_topics=3)
+fig = topic_model.visualize_topics_over_time(topics_over_time, top_n_topics=10)
 fig.write_html("./results/kpsa_topic_over_time.html")
