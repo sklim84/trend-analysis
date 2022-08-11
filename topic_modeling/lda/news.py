@@ -8,12 +8,12 @@ from topic_modeling.lda.commons import lda_model, get_topic_labeler
 # 생성 토픽 수
 topic_number = 10
 # 기존 생성한 모델 재사용여부
-reuse_trained_model = False
+reuse_trained_model = True
 
 model = None
 if reuse_trained_model:
     # 모델 로드
-    model = tp.DMRModel.load('./models/news.model')
+    model = tp.LDAModel.load('./models/news.model')
 else:
     # 데이터 로드 및 전처리
     timestamps, dataset = news_data.load_for_topic(timestamp_index=0, target_index=4)

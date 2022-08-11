@@ -172,7 +172,7 @@ def load_for_topic(timestamp_index, target_index, timestamp_pattern='%Y', reuse_
 
     # 기전처리된 파일 사용 시
     if reuse_preproc:
-        with open(here / 'news_pp_for_dmr.pkl', 'rb') as fin:
+        with open(here / 'news_pp_for_topic.pkl', 'rb') as fin:
             timestamps = pickle.load(fin)
             documents = pickle.load(fin)
         fin.close()
@@ -206,7 +206,7 @@ def load_for_topic(timestamp_index, target_index, timestamp_pattern='%Y', reuse_
         documents.append(document)
 
     # 전처리된 결과 저장
-    with open(here / 'news_pp_for_dmr.pkl', 'wb') as fout:
+    with open(here / 'news_pp_for_topic.pkl', 'wb') as fout:
         pickle.dump(timestamps, fout)
         pickle.dump(documents, fout)
     fout.close()
