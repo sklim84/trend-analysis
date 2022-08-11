@@ -1,5 +1,3 @@
-import matplotlib
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import tomotopy as tp
@@ -7,6 +5,8 @@ from treform.topic_model.pyTextMinerTopicModel import pyTextMinerTopicModel
 
 from _datasets import kpsa_data
 from topic_modeling.dmr.commons import dmr_model, topic_scoring, get_topic_labeler
+
+pd.options.plotting.backend = "plotly"
 
 # 생성 토픽 수
 topic_number = 10
@@ -46,40 +46,37 @@ df_topic_label_keyword.to_csv('./results/kpsa_topic_label_keyword.csv', index=Fa
 # timestamp별 topic score 계산 및 저장
 df_topic_score = topic_scoring(model)
 print(df_topic_score)
-df_topic_score.to_csv('./results/kpsa_topic_score.csv', encoding='utf-8-sig')
+df_topic_score.to_csv('./results/kpsa_topic_score.csv', index=False, encoding='utf-8-sig')
 
 # timestamp별 topic score line graph
-matplotlib.rcParams['font.family'] = 'Malgun Gothic'
-df_topic_score.T.plot(style='.-', grid=True, figsize=(12, 6))
-plt.title('Topic Score')
-plt.ylabel('Importance')
-plt.xlabel('Timestamp')
-ylim = max(abs(min(df_topic_score.min())), abs(max(df_topic_score.max()))) + 0.5
-plt.ylim(-ylim, ylim)
-plt.legend(loc='lower right', fontsize=8)
-plt.tight_layout()
-plt.savefig('./results/kpsa_topic_score.png')
-plt.show()
+fig = df_topic_score.T.plot()
+fig.update_layout(
+    title="<b>Topics over Time</b>",
+    template="plotly_white",
+    xaxis_title="Timestamp",
+    yaxis_title="Importance",
+    legend_title="Topic",
+    font=dict(
+        size=18
+    )
+)
+fig.write_html('./results/kpsa_topic_over_time.html')
 
 # timestamp별 topic distribution graph(using softmax)
 probs = np.exp(model.lambdas - model.lambdas.max(axis=0))
 probs /= probs.sum(axis=0)
 
 df_probs = pd.DataFrame(data=probs).T
-topic_label = []
-labeler = get_topic_labeler(model)
-for topic_number in range(model.k):
-    label = ' '.join([label_tuple[0] for label_tuple in labeler.get_topic_labels(topic_number, top_n=2)])
-    topic_label.append(label)
-df_probs.columns = topic_label
 df_probs.index = model.metadata_dict
-
-matplotlib.rcParams['font.family'] = 'Malgun Gothic'
-df_probs.plot.barh(stacked=True, figsize=(12, 6))
-plt.title('Topic Distributions')
-plt.ylabel('Timestamp')
-plt.xlabel('Distribution')
-plt.legend(loc='lower right', fontsize=8)
-plt.tight_layout()
-plt.savefig('./results/kpsa_topic_dist.png')
-plt.show()
+fig = df_probs.plot.barh()
+fig.update_layout(
+    title="<b>Topic Distributions</b>",
+    template="plotly_white",
+    xaxis_title="Distribution",
+    yaxis_title="Timestamp",
+    legend_title="Topic",
+    font=dict(
+        size=18
+    )
+)
+fig.write_html('./results/kpsa_topic_dist.html')
