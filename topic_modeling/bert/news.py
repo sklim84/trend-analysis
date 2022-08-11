@@ -7,7 +7,7 @@ from _datasets import news_data
 timestamps, dataset = news_data.load_for_bertopic(0, 4)
 
 # 기존 생성한 모델 재사용여부
-reuse_trained_model = False
+reuse_trained_model = True
 if reuse_trained_model:
     topic_model = BERTopic.load('./models/news.model')
 else:
@@ -32,7 +32,7 @@ fig = topic_model.visualize_barchart()
 fig.write_html("./results/news_topic_keywords_score.html")
 
 # topic similarity heatmap
-fig = topic_model.visualize_heatmap()
+fig = topic_model.visualize_heatmap(top_n_topics=10)
 fig.write_html("./results/news_topic_similarity_heatmap.html")
 
 # dynamic topic modeling (over time)
