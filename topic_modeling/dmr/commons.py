@@ -59,14 +59,6 @@ def topic_scoring(model):
         for word, prob in model.get_topic_words(topic_number):
             print('\t', word, prob, sep='\t')
 
-    extractor = tp.label.PMIExtractor(min_cf=10, min_df=5, max_len=5, max_cand=10000)
-    cands = extractor.extract(model)
-    labeler = tp.label.FoRelevance(model, cands, min_df=5, smoothing=1e-2, mu=0.25)
-    topic_label = []
-    for topic_number in range(model.k):
-        label = ' '.join([label_tuple[0] for label_tuple in labeler.get_topic_labels(topic_number, top_n=2)])
-        topic_label.append(label)
-    df_topic_score.index = topic_label
     df_topic_score.columns = model.metadata_dict
 
     return df_topic_score
