@@ -1,35 +1,17 @@
-from _datasets import jpss_data
-import treform as ptm
-import re
 import pandas as pd
+import treform as ptm
+
+from _datasets import jpss_data
 
 ####################
 # Journal of Payments Strategy & Systems 논문
 # - Format : id(eid) | year | title | abstract | keywords
-# - 기간 : 2019-2021
+# - 기간 : 2017-2021
 # - 분석대상 : abstract
 ####################
 
 # 데이터 로드 및 전처리
-label, content = jpss_data.load_for_term_weighting(label_index=0, target_index=3)
-
-documents = []
-for index, doc in enumerate(content):
-    document = ' '
-    for sent in doc:
-        for word in sent:
-            new_word = re.sub('[^A-Za-z0-9가-힣_ ]+', '', word)
-            if len(new_word) > 0:
-                document += ' ' + word
-    document = document.strip()
-    if len(document) > 0:
-        documents.append(document)
-    else:
-        print('remove {}th content '.format(str(index)))
-        label.pop(index)   # label 제거
-
-print('label length : ' + str(len(label)))
-print('content length : ' + str(len(content)))
+label, documents = jpss_data.load_for_term_weighting(label_index=0, target_index=3)
 
 # Term weighting : TF-IDF
 tf_idf = ptm.weighting.TfIdf(documents, label_list=label)
