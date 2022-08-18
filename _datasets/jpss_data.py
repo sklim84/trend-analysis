@@ -6,7 +6,6 @@ import pandas as pd
 from nltk import pos_tag
 from nltk import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
-import treform as ptm
 
 
 ####################
@@ -32,11 +31,6 @@ def _preprocess_text(txt):
     stopwords_def.extend(stopwords_ctm)
     words_flt = [word for word in words if word not in stopwords_def]
 
-    # stemming
-    # porter = PorterStemmer()
-    # stemmed = [porter.stem(word) for word in filtered_words]
-    # print(stemmed)
-
     # select NN*
     words_tag = pos_tag(words_flt)
     words_fin = []
@@ -54,7 +48,6 @@ def _preprocess_text(txt):
 def load_for_keyword(target_index, reuse_preproc=False):
     here = pathlib.Path(__file__).resolve().parent
     loc_data = here / 'jpss.csv'
-    loc_stopwords = here / 'stopwordsEng.txt'
 
     # 기전처리된 파일 사용 시
     if reuse_preproc:
@@ -72,24 +65,11 @@ def load_for_keyword(target_index, reuse_preproc=False):
     target = [item.lower() for item in target]
 
     # 전처리
-    pipeline = ptm.Pipeline(ptm.splitter.NLTK(),
-                            ptm.tokenizer.Word(),
-                            ptm.tagger.NLTK(),
-                            ptm.helper.POSFilter('NN*'),
-                            ptm.helper.SelectWordOnly(),
-                            ptm.ngram.NGramTokenizer(1, 2),
-                            ptm.helper.StopwordFilter(file=loc_stopwords))
-    result = pipeline.processCorpus(target)
-
     documents = []
-    for doc in result:
-        document = ''
-        for sent in doc:
-            new_sent = ' '.join(sent)
-            new_sent = re.sub('[^A-Za-z0-9가-힣_ ]+', '', new_sent)
-            new_sent = new_sent.strip()
-            document += new_sent
-        documents.append(document)
+    for document in target:
+        words = _preprocess_text(document)
+        if len(words) > 0:
+            documents.append(' '.join(words))
 
     # 전처리된 결과 저장
     with open(here / 'jpss_pp_for_keyword.pkl', 'wb') as fout:
