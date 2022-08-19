@@ -10,9 +10,6 @@
 <node id="payments">
   <data key="d0">605</data>
 </node>
-<node id="bank">
-  <data key="d0">304</data>
-</node>
 <node id="henry">
   <data key="d0">1</data>
 </node>
@@ -22,20 +19,23 @@
 <node id="banks">
   <data key="d0">392</data>
 </node>
+<node id="bank">
+  <data key="d0">304</data>
+</node>
 <node id="service">
   <data key="d0">225</data>
-</node>
-<node id="providers">
-  <data key="d0">238</data>
 </node>
 <node id="systems">
   <data key="d0">303</data>
 </node>
-<node id="market">
-  <data key="d0">288</data>
+<node id="providers">
+  <data key="d0">238</data>
 </node>
 <node id="services">
   <data key="d0">282</data>
+</node>
+<node id="market">
+  <data key="d0">288</data>
 </node>
 <node id="system">
   <data key="d0">256</data>
@@ -46,20 +46,20 @@
 <node id="cash">
   <data key="d0">282</data>
 </node>
-<node id="settlement">
-  <data key="d0">146</data>
-</node>
 <node id="banking">
   <data key="d0">179</data>
+</node>
+<node id="settlement">
+  <data key="d0">146</data>
 </node>
 <node id="access">
   <data key="d0">180</data>
 </node>
-<node id="technology">
-  <data key="d0">299</data>
-</node>
 <node id="methods">
   <data key="d0">91</data>
+</node>
+<node id="technology">
+  <data key="d0">299</data>
 </node>
 <node id="role">
   <data key="d0">164</data>
@@ -70,14 +70,14 @@
 <node id="infrastructure">
   <data key="d0">130</data>
 </node>
+<node id="business">
+  <data key="d0">182</data>
+</node>
 <node id="currencies">
   <data key="d0">169</data>
 </node>
 <node id="data">
   <data key="d0">171</data>
-</node>
-<node id="business">
-  <data key="d0">182</data>
 </node>
 <node id="money">
   <data key="d0">198</data>
@@ -85,8 +85,8 @@
 <node id="adoption">
   <data key="d0">135</data>
 </node>
-<node id="drivers">
-  <data key="d0">64</data>
+<node id="issues">
+  <data key="d0">115</data>
 </node>
 <node id="innovation">
   <data key="d0">160</data>
@@ -94,8 +94,8 @@
 <node id="benefits">
   <data key="d0">142</data>
 </node>
-<node id="issues">
-  <data key="d0">115</data>
+<node id="drivers">
+  <data key="d0">64</data>
 </node>
 <edge source="payment" target="paper">
   <data key="d1">62.0</data>
@@ -106,10 +106,10 @@
 <edge source="payment" target="service">
   <data key="d1">28.0</data>
 </edge>
-<edge source="payment" target="providers">
+<edge source="payment" target="systems">
   <data key="d1">27.0</data>
 </edge>
-<edge source="payment" target="systems">
+<edge source="payment" target="providers">
   <data key="d1">27.0</data>
 </edge>
 <edge source="payment" target="banks">
@@ -139,22 +139,22 @@
 <edge source="payment" target="infrastructure">
   <data key="d1">12.0</data>
 </edge>
-<edge source="payment" target="technology">
-  <data key="d1">12.0</data>
-</edge>
 <edge source="payment" target="bank">
   <data key="d1">12.0</data>
 </edge>
 <edge source="payment" target="business">
   <data key="d1">12.0</data>
 </edge>
+<edge source="payment" target="technology">
+  <data key="d1">12.0</data>
+</edge>
 <edge source="paper" target="payments">
   <data key="d1">52.0</data>
 </edge>
-<edge source="paper" target="bank">
+<edge source="paper" target="banks">
   <data key="d1">31.0</data>
 </edge>
-<edge source="paper" target="banks">
+<edge source="paper" target="bank">
   <data key="d1">31.0</data>
 </edge>
 <edge source="paper" target="systems">
@@ -163,19 +163,19 @@
 <edge source="paper" target="system">
   <data key="d1">18.0</data>
 </edge>
-<edge source="paper" target="providers">
+<edge source="paper" target="cash">
   <data key="d1">16.0</data>
 </edge>
-<edge source="paper" target="cash">
+<edge source="paper" target="providers">
   <data key="d1">16.0</data>
 </edge>
 <edge source="paper" target="banking">
   <data key="d1">15.0</data>
 </edge>
-<edge source="paper" target="service">
+<edge source="paper" target="market">
   <data key="d1">14.0</data>
 </edge>
-<edge source="paper" target="market">
+<edge source="paper" target="service">
   <data key="d1">14.0</data>
 </edge>
 <edge source="paper" target="technology">
@@ -199,16 +199,16 @@
 <edge source="paper" target="services">
   <data key="d1">11.0</data>
 </edge>
-<edge source="paper" target="drivers">
+<edge source="paper" target="settlement">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="paper" target="issues">
   <data key="d1">10.0</data>
 </edge>
 <edge source="paper" target="benefits">
   <data key="d1">10.0</data>
 </edge>
-<edge source="paper" target="settlement">
-  <data key="d1">10.0</data>
-</edge>
-<edge source="paper" target="issues">
+<edge source="paper" target="drivers">
   <data key="d1">10.0</data>
 </edge>
 <edge source="payments" target="market">
@@ -223,10 +223,10 @@
 <edge source="payments" target="bank">
   <data key="d1">13.0</data>
 </edge>
-<edge source="payments" target="services">
+<edge source="payments" target="systems">
   <data key="d1">13.0</data>
 </edge>
-<edge source="payments" target="systems">
+<edge source="payments" target="services">
   <data key="d1">13.0</data>
 </edge>
 <edge source="payments" target="adoption">
@@ -238,16 +238,16 @@
 <edge source="payments" target="innovation">
   <data key="d1">10.0</data>
 </edge>
-<edge source="bank" target="cash">
-  <data key="d1">13.0</data>
-</edge>
-<edge source="bank" target="currencies">
-  <data key="d1">10.0</data>
-</edge>
 <edge source="henry" target="stewart">
   <data key="d1">31.0</data>
 </edge>
 <edge source="banks" target="providers">
+  <data key="d1">10.0</data>
+</edge>
+<edge source="bank" target="cash">
+  <data key="d1">13.0</data>
+</edge>
+<edge source="bank" target="currencies">
   <data key="d1">10.0</data>
 </edge>
 <edge source="service" target="providers">

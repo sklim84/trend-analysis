@@ -1,6 +1,7 @@
-import treform as ptm
-import re
 import os
+
+import treform as ptm
+
 from _datasets import news_data
 
 ####################
@@ -13,7 +14,6 @@ from _datasets import news_data
 
 # 데이터 로드 및 전처리
 dataset = news_data.load_for_coword(target_index=4, reuse_preproc=False)
-
 
 ####################
 # co-occurrence 계산 및 graphml 생성
