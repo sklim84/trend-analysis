@@ -31,11 +31,6 @@ def _preprocess_text(txt):
     stopwords_def.extend(stopwords_ctm)
     words_flt = [word for word in words if word not in stopwords_def]
 
-    # stemming
-    # porter = PorterStemmer()
-    # stemmed = [porter.stem(word) for word in filtered_words]
-    # print(stemmed)
-
     # select NN*
     words_tag = pos_tag(words_flt)
     words_fin = []
@@ -52,6 +47,7 @@ def _preprocess_text(txt):
 ####################
 def load_for_keyword(target_index, reuse_preproc=False):
     here = pathlib.Path(__file__).resolve().parent
+    loc_data = here / 'jpss.csv'
 
     # 기전처리된 파일 사용 시
     if reuse_preproc:
@@ -61,10 +57,12 @@ def load_for_keyword(target_index, reuse_preproc=False):
         return documents
 
     # 데이터 로드
-    df_jpss = pd.read_csv(here / 'jpss.csv')
+    df_jpss = pd.read_csv(loc_data)
     target = df_jpss.iloc[:, [target_index]].astype(str).values.tolist()
     # [[document1], ...] → [document1, ...]
     target = sum(target, [])
+    # to lowercase
+    target = [item.lower() for item in target]
 
     # 전처리
     documents = []

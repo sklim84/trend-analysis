@@ -1,8 +1,10 @@
 import pathlib
-import treform as ptm
-import re
 import pickle
+import re
+
 import pandas as pd
+import treform as ptm
+
 
 ####################
 # 지급결제학회 논문(2017~2021) abstract 분석
@@ -15,6 +17,8 @@ import pandas as pd
 # 데이터 로드 및 전처리
 # - 전처리 : Tokenizing, POS tagging & filtering, n-gram, Stopword Filtering
 ####################
+
+
 def load_for_keyword(target_index, reuse_preproc=False):
     here = pathlib.Path(__file__).resolve().parent
     loc_data = here / 'kpsa.csv'
@@ -38,19 +42,19 @@ def load_for_keyword(target_index, reuse_preproc=False):
                             ptm.tokenizer.MeCab('C:\\mecab\\mecab-ko-dic'),
                             ptm.helper.POSFilter('NN*'),
                             ptm.helper.SelectWordOnly(),
-                            ptm.ngram.NGramTokenizer(1, 2),
+                            ptm.ngram.NGramTokenizer(1, 1),
                             ptm.helper.StopwordFilter(file=loc_stopwords))
     result = pipeline.processCorpus(target)
 
     documents = []
     for doc in result:
-        document = ''
+        document = []
         for sent in doc:
             new_sent = ' '.join(sent)
             new_sent = re.sub('[^A-Za-z0-9가-힣_ ]+', '', new_sent)
             new_sent = new_sent.strip()
-            document += new_sent
-        documents.append(document)
+            document.append(new_sent)
+        documents.append(' '.join(document))
 
     # 전처리된 결과 저장
     with open(here / 'kpsa_pp_for_keyword.pkl', 'wb') as fout:
@@ -104,6 +108,7 @@ def load_for_coword(target_index, reuse_preproc=False):
 
     return documents
 
+
 ####################
 # Term Weighting을 위한 데이터 로드 및 처리
 # - 전처리 : Tokenizing, POS tagging & filtering, Stopword Filtering
@@ -123,6 +128,7 @@ def load_for_term_weighting(label_index, target_index):
                             ptm.helper.SelectWordOnly(),  # 품사 태크 제거
                             ptm.helper.StopwordFilter(file=loc_stopwords))
     return label.docs[1:], pipeline.processCorpus(content.docs[1:])
+
 
 def load_for_topic(timestamp_index, target_index, reuse_preproc=False):
     here = pathlib.Path(__file__).resolve().parent
