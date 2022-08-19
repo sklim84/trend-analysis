@@ -11,7 +11,7 @@ from _datasets import news_data
 ####################
 
 # 데이터 로드 및 전처리
-dataset = news_data.load_for_keyword(target_index=4, reuse_preproc=False)
+dataset = news_data.load_for_keyword(target_index=4, reuse_preproc=True)
 
 # TextRank 기반 Keyword 추출
 keyword_extractor = tr.TextRank(pos_tagger_name='mecab', mecab_path='C:\\mecab\\mecab-ko-dic', lang='ko')
