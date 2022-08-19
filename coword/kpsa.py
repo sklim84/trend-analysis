@@ -1,6 +1,7 @@
-import treform as ptm
-import re
 import os
+
+import treform as ptm
+
 from _datasets import kpsa_data
 
 ####################
