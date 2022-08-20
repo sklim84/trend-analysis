@@ -10,7 +10,7 @@ from _datasets import jpss_data
 ####################
 
 # 데이터 로드 및 전처리
-dataset = jpss_data.load_for_coword(target_index=3, reuse_preproc=True)
+dataset = jpss_data.load_for_coword(target_index=3, reuse_preproc=False)
 
 ####################
 # co-occurrence 계산 및 graphml 생성
@@ -49,5 +49,6 @@ with open('./results/jpss_co_count.txt', 'r', encoding='utf-8') as fin:
         word_hist = dict(zip(vocabulary.keys(), vocabulary.values()))
 
 graph_builder = ptm.graphml.GraphMLCreator()
+threshold = 3
 graph_builder.createGraphMLWithThreshold(co_results, word_hist, vocabulary.keys(),
-                                         "./results/jpss_w_ext_th_10.graphml", threshold=10)
+                                         f"./results/jpss_w_ext_th_{threshold}.graphml", threshold=threshold)

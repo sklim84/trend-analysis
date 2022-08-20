@@ -51,5 +51,6 @@ with open('./results/kpsa_co_count.txt', 'r', encoding='utf-8') as fin:
         word_hist = dict(zip(vocabulary.keys(), vocabulary.values()))
 
 graph_builder = ptm.graphml.GraphMLCreator()
+threshold = 3
 graph_builder.createGraphMLWithThreshold(co_results, word_hist, vocabulary.keys(),
-                                         "./results/kpsa_w_ext_th_10.graphml", threshold=10)
+                                         f"./results/kpsa_w_ext_th_{threshold}.graphml", threshold=threshold)
