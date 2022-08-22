@@ -1,7 +1,6 @@
-import treform.keyword.textrank as tr
+from keybert import KeyBERT
 
 from _datasets import kpsa_data
-from keybert import KeyBERT
 
 ####################
 # 지급결제학회 논문
@@ -11,14 +10,17 @@ from keybert import KeyBERT
 ####################
 
 # 데이터 로드 및 전처리
-dataset = kpsa_data.load_for_keyword(target_index=3, reuse_preproc=True)
+doc_group_by_time = kpsa_data.load_for_keyword(timestamp_name='year', target_name='abstract', timestamp_format='%Y',
+                                               timestamp_group_format='Y', reuse_preproc=True)
 
 # KeyBERT 기반 Keyword 추출
-model = KeyBERT('sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens')
-keywords = model.extract_keywords(' '.join(dataset), top_n=100, keyphrase_ngram_range=(1, 1))
+for timestamp in doc_group_by_time.keys():
+    documents = doc_group_by_time[timestamp]
+    model = KeyBERT('sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens')
+    keywords = model.extract_keywords(' '.join(documents), top_n=10, keyphrase_ngram_range=(1, 1))
 
-with open('./results/kpsa_keywords.txt', 'w', encoding='utf-8') as fout:
-    for word, r in keywords:
-        print('{}\t{}\n'.format(word, r))
-        fout.write('{}\t{}\n'.format(word, r))
-fout.close()
+    with open('./results/{}_kpsa_keywords.txt'.format(timestamp.strftime('%Y')), 'w', encoding='utf-8') as fout:
+        for word, r in keywords:
+            print('{}\t{}\n'.format(word, r))
+            fout.write('{}\t{}\n'.format(word, r))
+    fout.close()

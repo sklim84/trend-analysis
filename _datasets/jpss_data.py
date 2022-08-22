@@ -45,38 +45,46 @@ def _preprocess_text(txt):
 # 데이터 로드 및 전처리
 # - 전처리 : Tokenizing, POS tagging & filtering, n-gram, Stopword Filtering
 ####################
-def load_for_keyword(target_index, reuse_preproc=False):
+def load_for_keyword(timestamp_name, target_name, timestamp_format='%Y', timestamp_group_format='Y',
+                     reuse_preproc=False):
     here = pathlib.Path(__file__).resolve().parent
     loc_data = here / 'jpss.csv'
 
     # 기전처리된 파일 사용 시
     if reuse_preproc:
         with open(here / 'jpss_pp_for_keyword.pkl', 'rb') as fin:
-            documents = pickle.load(fin)
+            doc_group_by_time = pickle.load(fin)
         fin.close()
-        return documents
+        return doc_group_by_time
 
     # 데이터 로드
     df_jpss = pd.read_csv(loc_data)
-    target = df_jpss.iloc[:, [target_index]].astype(str).values.tolist()
-    # [[document1], ...] → [document1, ...]
-    target = sum(target, [])
-    # to lowercase
-    target = [item.lower() for item in target]
+    df_jpss[timestamp_name] = pd.to_datetime(df_jpss[timestamp_name], format=timestamp_format)
+    df_jpss.set_index(timestamp_name, inplace=True)
 
-    # 전처리
-    documents = []
-    for document in target:
-        words = _preprocess_text(document)
-        if len(words) > 0:
-            documents.append(' '.join(words))
+    # timestamp별 그룹화
+    doc_group_by_time = {time: group for time, group in df_jpss.groupby(pd.Grouper(freq=timestamp_group_format))}
+
+    for time in doc_group_by_time.keys():
+        target = doc_group_by_time[time][target_name].astype(str).values.tolist()
+
+        # to lowercase
+        target = [item.lower() for item in target]
+
+        # 전처리
+        documents = []
+        for document in target:
+            words = _preprocess_text(document)
+            if len(words) > 0:
+                documents.append(' '.join(words))
+        doc_group_by_time[time] = documents
 
     # 전처리된 결과 저장
     with open(here / 'jpss_pp_for_keyword.pkl', 'wb') as fout:
-        pickle.dump(documents, fout)
+        pickle.dump(doc_group_by_time, fout)
     fout.close()
 
-    return documents
+    return doc_group_by_time
 
 
 def load_for_coword(target_index, reuse_preproc=False):
