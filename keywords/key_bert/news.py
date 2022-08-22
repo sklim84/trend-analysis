@@ -1,7 +1,6 @@
-import treform.keyword.textrank as tr
+from keybert import KeyBERT
 
 from _datasets import news_data
-from keybert import KeyBERT
 
 ####################
 # 네이버 뉴스
@@ -12,14 +11,18 @@ from keybert import KeyBERT
 ####################
 
 # 데이터 로드 및 전처리
-dataset = news_data.load_for_keyword(target_index=4, reuse_preproc=True)
+doc_group_by_time = news_data.load_for_keyword(timestamp_name='date', target_name='content',
+                                               timestamp_format='%Y-%m-%d',
+                                               timestamp_group_format='Y', reuse_preproc=True)
 
 # KeyBERT 기반 Keyword 추출
-model = KeyBERT('sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens')
-keywords = model.extract_keywords(' '.join(dataset), top_n=100, keyphrase_ngram_range=(1, 1))
+for timestamp in doc_group_by_time.keys():
+    documents = doc_group_by_time[timestamp]
+    model = KeyBERT('sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens')
+    keywords = model.extract_keywords(' '.join(documents), top_n=10, keyphrase_ngram_range=(1, 1))
 
-with open('./results/news_keywords.txt', 'w', encoding='utf-8') as fout:
-    for word, r in keywords:
-        print('{}\t{}\n'.format(word, r))
-        fout.write('{}\t{}\n'.format(word, r))
-fout.close()
+    with open('./results/{}_news_keywords.txt'.format(timestamp.strftime('%Y')), 'w', encoding='utf-8') as fout:
+        for word, r in keywords:
+            print('{}\t{}\n'.format(word, r))
+            fout.write('{}\t{}\n'.format(word, r))
+    fout.close()
