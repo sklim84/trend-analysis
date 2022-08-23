@@ -16,7 +16,7 @@ doc_group_by_time = kpsa_data.load_for_keyword(timestamp_name='year', target_nam
 # KeyBERT 기반 Keyword 추출
 for timestamp in doc_group_by_time.keys():
     documents = doc_group_by_time[timestamp]
-    model = KeyBERT('sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens')
+    model = KeyBERT('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2')
     keywords = model.extract_keywords(' '.join(documents), top_n=10, keyphrase_ngram_range=(1, 1))
 
     with open('./results/{}_kpsa_keywords.txt'.format(timestamp.strftime('%Y')), 'w', encoding='utf-8') as fout:

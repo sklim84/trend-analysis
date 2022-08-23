@@ -19,7 +19,7 @@ doc_group_by_time = news_data.load_for_keyword(timestamp_name='date', target_nam
 for timestamp in doc_group_by_time.keys():
     print(timestamp)
     documents = doc_group_by_time[timestamp]
-    keyword_extractor = tr.TextRank(pos_tagger_name='mecab', mecab_path='C:\\mecab\\mecab-ko-dic', lang='ko')
+    keyword_extractor = tr.TextRank(pos_tagger_name='mecab', mecab_path='/home/sklim/mecab-ko-dic-2.1.1-20180720/', lang='ko')
     keyword_extractor.build_keywords(' '.join(documents))
     keywords = keyword_extractor.get_keywords(limit=10)
 
