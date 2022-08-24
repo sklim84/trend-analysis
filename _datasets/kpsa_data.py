@@ -45,7 +45,7 @@ def load_for_keyword(timestamp_name, target_name, timestamp_format='%Y', timesta
 
         # 전처리
         pipeline = ptm.Pipeline(ptm.splitter.NLTK(),
-                                ptm.tokenizer.MeCab('C:\\mecab\\mecab-ko-dic'),
+                                ptm.tokenizer.MeCab('/home/sklim/mecab-ko-dic-2.1.1-20180720/'),
                                 ptm.helper.POSFilter('NN*'),
                                 ptm.helper.SelectWordOnly(),
                                 ptm.ngram.NGramTokenizer(1, 1),
@@ -92,7 +92,7 @@ def load_for_coword(target_index, reuse_preproc=False):
 
     # 전처리
     pipeline = ptm.Pipeline(ptm.splitter.NLTK(),
-                            ptm.tokenizer.MeCab('C:\\mecab\\mecab-ko-dic'),
+                            ptm.tokenizer.MeCab('/home/sklim/mecab-ko-dic-2.1.1-20180720/'),
                             ptm.helper.POSFilter('NN*'),
                             ptm.helper.SelectWordOnly(),
                             ptm.ngram.NGramTokenizer(1, 1),
@@ -131,7 +131,7 @@ def load_for_term_weighting(label_index, target_index):
     content = ptm.CorpusFromCSVFile(loc_data, target_index)
     # 전처리
     pipeline = ptm.Pipeline(ptm.splitter.NLTK(),
-                            ptm.tokenizer.MeCab('C:\\mecab\\mecab-ko-dic'),
+                            ptm.tokenizer.MeCab('/home/sklim/mecab-ko-dic-2.1.1-20180720/'),
                             ptm.helper.POSFilter('NN*'),
                             ptm.helper.SelectWordOnly(),  # 품사 태크 제거
                             ptm.helper.StopwordFilter(file=loc_stopwords))
@@ -160,7 +160,7 @@ def load_for_topic(timestamp_index, target_index, reuse_preproc=False):
 
     # 전처리
     pipeline = ptm.Pipeline(ptm.splitter.NLTK(),
-                            ptm.tokenizer.MeCab('C:\\mecab\\mecab-ko-dic'),
+                            ptm.tokenizer.MeCab('/home/sklim/mecab-ko-dic-2.1.1-20180720/'),
                             ptm.helper.POSFilter('NN*'),
                             ptm.helper.SelectWordOnly(),  # 품사 태크 제거
                             ptm.helper.StopwordFilter(file=loc_stopwords))
@@ -208,7 +208,7 @@ def load_for_bertopic(timestamp_index, target_index, reuse_preproc=False):
 
     # 전처리
     pipeline = ptm.Pipeline(ptm.splitter.NLTK(),
-                            ptm.tokenizer.MeCab('C:\\mecab\\mecab-ko-dic'),
+                            ptm.tokenizer.MeCab('/home/sklim/mecab-ko-dic-2.1.1-20180720/'),
                             ptm.helper.POSFilter('NN*'),
                             ptm.helper.SelectWordOnly(),  # 품사 태크 제거
                             ptm.helper.StopwordFilter(file=loc_stopwords))
