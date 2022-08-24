@@ -1,15 +1,17 @@
 # https://github.com/MaartenGr/BERTopic
 
 from bertopic import BERTopic
+
 from _datasets import kpsa_data
 
 # 데이터 로드
-timestamps, dataset = kpsa_data.load_for_bertopic(1, 3)
+timestamps, dataset = kpsa_data.load_for_bertopic(timestamp_index=1, target_index=3, reuse_preproc=True)
 
 # 기존 생성한 모델 재사용여부
 reuse_trained_model = True
 if reuse_trained_model:
     topic_model = BERTopic.load('./models/kpsa.model')
+    topics, probs = topic_model.transform(dataset)
 else:
     topic_model = BERTopic(language='multilingual')  # select a model that supports 50+ languages.
     topics, probs = topic_model.fit_transform(dataset)

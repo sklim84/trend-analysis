@@ -11,7 +11,7 @@ pd.options.plotting.backend = "plotly"
 # 생성 토픽 수
 topic_number = 10
 # 기존 생성한 모델 재사용여부
-reuse_trained_model = True
+reuse_trained_model = False
 
 model = None
 if reuse_trained_model:
@@ -19,7 +19,7 @@ if reuse_trained_model:
     model = tp.DMRModel.load('./models/news.model')
 else:
     # 데이터 로드 및 전처리
-    timestamps, dataset = news_data.load_for_topic(timestamp_index=0, target_index=4, timestamp_pattern='%Y')
+    timestamps, dataset = news_data.load_for_topic(timestamp_index=0, target_index=4, timestamp_pattern='%Y%m', reuse_preproc=False)
 
     # DMR 모델 학습 및 저장
     model = dmr_model(dataset, timestamps, topic_number)
