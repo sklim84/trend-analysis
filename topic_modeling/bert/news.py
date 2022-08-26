@@ -39,28 +39,28 @@ fig.write_html("./results/news_topic_similarity_heatmap.html")
 
 # TODO bug fix - when '%Y%m', AttributeError: 'float' object has no attribute 'left'
 # dynamic topic modeling (over time)
-# datetime_format='%Y%m'
-# nr_bins=20
-# documents = pd.DataFrame({"Document": dataset, "Topic": topics, "Timestamps": timestamps})
-#
-# all_topics = sorted(list(documents.Topic.unique()))
-# all_topics_indices = {topic: index for index, topic in enumerate(all_topics)}
-#
-# print(documents["Timestamps"])
-#
-# if isinstance(timestamps[0], str):
-#     infer_datetime_format = True if not datetime_format else False
-#     documents["Timestamps"] = pd.to_datetime(documents["Timestamps"],
-#                                              infer_datetime_format=infer_datetime_format,
-#                                              format=datetime_format)
-#
-# print(documents["Timestamps"])
-#
-# if nr_bins:
-#     documents["Bins"] = pd.cut(documents.Timestamps, bins=nr_bins)
-#     documents["Timestamps"] = documents.apply(lambda row: row.Bins.left, 1)
+datetime_format='%Y%m'
+nr_bins=20
+documents = pd.DataFrame({"Document": dataset, "Topic": topics, "Timestamps": timestamps})
 
-topics_over_time = topic_model.topics_over_time(dataset, topics, timestamps, datetime_format='%Y%m', nr_bins=20)
-topics_over_time.to_csv('./results/news_topic_over_time.csv')
-fig = topic_model.visualize_topics_over_time(topics_over_time, top_n_topics=10)
-fig.write_html("./results/news_topic_over_time.html")
+all_topics = sorted(list(documents.Topic.unique()))
+all_topics_indices = {topic: index for index, topic in enumerate(all_topics)}
+
+print(documents["Timestamps"])
+
+if isinstance(timestamps[0], str):
+    infer_datetime_format = True if not datetime_format else False
+    documents["Timestamps"] = pd.to_datetime(documents["Timestamps"],
+                                             infer_datetime_format=infer_datetime_format,
+                                             format=datetime_format)
+
+print(documents["Timestamps"])
+
+if nr_bins:
+    documents["Bins"] = pd.cut(documents.Timestamps, bins=nr_bins)
+    documents["Timestamps"] = documents.apply(lambda row: row.Bins.left, 1)
+
+# topics_over_time = topic_model.topics_over_time(dataset, topics, timestamps, datetime_format='%Y%m', nr_bins=20)
+# topics_over_time.to_csv('./results/news_topic_over_time.csv')
+# fig = topic_model.visualize_topics_over_time(topics_over_time, top_n_topics=10)
+# fig.write_html("./results/news_topic_over_time.html")

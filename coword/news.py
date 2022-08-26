@@ -41,6 +41,7 @@ os.chdir(current_path)
 # create graphml
 co_results = []
 vocabulary = {}
+
 with open('./results/news_co_count.txt', 'r', encoding='utf-8') as fin:
     for line in fin:
         fields = line.split()
