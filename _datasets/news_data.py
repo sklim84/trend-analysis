@@ -91,6 +91,7 @@ def load_for_coword(target_index, reuse_preproc=False):
     # 전처리
     pipeline = ptm.Pipeline(ptm.splitter.NLTK(),
                             ptm.tokenizer.MeCab('/home/sklim/mecab-ko-dic-2.1.1-20180720/'),
+                            # ptm.tokenizer.MeCab('C:\\mecab\\mecab-ko-dic'),
                             ptm.helper.POSFilter('NN*'),
                             ptm.helper.SelectWordOnly(),
                             ptm.ngram.NGramTokenizer(1, 1),
