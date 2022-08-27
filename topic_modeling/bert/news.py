@@ -5,10 +5,10 @@ from _datasets import news_data
 import pandas as pd
 
 # 데이터 로드
-timestamps, dataset = news_data.load_for_bertopic(timestamp_index=0, target_index=4, timestamp_pattern='%Y%m', reuse_preproc=True)
+timestamps, dataset = news_data.load_for_bertopic(timestamp_index=0, target_index=4, timestamp_pattern='%Y%m', reuse_preproc=False)
 
 # 기존 생성한 모델 재사용여부
-reuse_trained_model = True
+reuse_trained_model = False
 if reuse_trained_model:
     topic_model = BERTopic.load('./models/news.model')
     topics, probs = topic_model.transform(dataset)
@@ -39,7 +39,8 @@ fig.write_html("./results/news_topic_similarity_heatmap.html")
 
 # TODO bug fix - when '%Y%m', AttributeError: 'float' object has no attribute 'left'
 # dynamic topic modeling (over time)
-datetime_format='%Y%m'
+'''
+datetime_format='%Y'
 nr_bins=20
 documents = pd.DataFrame({"Document": dataset, "Topic": topics, "Timestamps": timestamps})
 
@@ -59,8 +60,9 @@ print(documents["Timestamps"])
 if nr_bins:
     documents["Bins"] = pd.cut(documents.Timestamps, bins=nr_bins)
     documents["Timestamps"] = documents.apply(lambda row: row.Bins.left, 1)
+'''
 
-# topics_over_time = topic_model.topics_over_time(dataset, topics, timestamps, datetime_format='%Y%m', nr_bins=20)
-# topics_over_time.to_csv('./results/news_topic_over_time.csv')
-# fig = topic_model.visualize_topics_over_time(topics_over_time, top_n_topics=10)
-# fig.write_html("./results/news_topic_over_time.html")
+topics_over_time = topic_model.topics_over_time(dataset, topics, timestamps, datetime_format='%Y%m', nr_bins=20)
+topics_over_time.to_csv('./results/news_topic_over_time.csv')
+fig = topic_model.visualize_topics_over_time(topics_over_time, top_n_topics=10)
+fig.write_html("./results/news_topic_over_time.html")
