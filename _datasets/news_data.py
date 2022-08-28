@@ -237,6 +237,7 @@ def load_for_bertopic(timestamp_index, target_index, timestamp_pattern='%Y', reu
         return timestamps, documents
 
     df_news = pd.read_csv(loc_data)
+    df_news = df_news.dropna(axis=0, how='all')
     df_news.iloc[:, timestamp_index] = pd.to_datetime(df_news.iloc[:, timestamp_index], errors='coerce')
     timestamps = df_news.iloc[:, timestamp_index].dt.strftime(timestamp_pattern).tolist()
     target = df_news.iloc[:, [target_index]].astype(str).values.tolist()
