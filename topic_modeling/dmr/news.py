@@ -19,9 +19,12 @@ if reuse_trained_model:
     model = tp.DMRModel.load('./models/news.model')
 else:
     # 데이터 로드 및 전처리
-    timestamps, dataset = news_data.load_for_topic(timestamp_index=0, target_index=4, timestamp_pattern='%Y%m', reuse_preproc=False)
+    timestamps, dataset = news_data.load_for_topic(timestamp_index=0, target_index=4, timestamp_pattern='%Y-%m', reuse_preproc=False)
 
     # DMR 모델 학습 및 저장
+
+    print(type(timestamps[0]))
+    print(timestamps)
     model = dmr_model(dataset, timestamps, topic_number)
     model.save('./models/news.model', True)
 
