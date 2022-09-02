@@ -9,7 +9,7 @@ from topic_modeling.dmr.commons import dmr_model, topic_scoring, get_topic_label
 pd.options.plotting.backend = "plotly"
 
 # 생성 토픽 수
-topic_number = 10
+topic_number = 34
 # 기존 생성한 모델 재사용여부
 reuse_trained_model = False
 
@@ -37,13 +37,17 @@ df_dominant_topic_for_each_doc.columns = ['Document_No', 'Dominant_Topic', 'Topi
 df_dominant_topic_for_each_doc.to_csv('./results/news_dominent_topic_for_each_doc.csv', index=False,
                                       encoding='utf-8-sig')
 
+topicdocs = [0 for _ in range(model.k)]
+for d in model.docs:
+        topicdocs[d.get_topics(top_n=1)[0][0]] += 1
+
 # 토픽별 label, keyword 저장
 labeler = get_topic_labeler(model)
-df_topic_label_keyword = pd.DataFrame(columns=['topic number', 'label', 'keywords'])
+df_topic_label_keyword = pd.DataFrame(columns=['topic number', 'label', 'docs', 'keywords'])
 for index, topic_number in enumerate(range(model.k)):
     label = ' '.join(label for label, score in labeler.get_topic_labels(topic_number, top_n=5))
     keywords = ' '.join(keyword for keyword, prob in model.get_topic_words(topic_number))
-    df_topic_label_keyword.loc[index] = [topic_number, label, keywords]
+    df_topic_label_keyword.loc[index] = [topic_number, label, topicdocs[topic_number], keywords]
 df_topic_label_keyword.to_csv('./results/news_topic_label_keyword.csv', index=False, encoding='utf-8-sig')
 
 # timestamp별 topic score 계산 및 저장
