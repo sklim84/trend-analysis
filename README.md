@@ -1,7 +1,16 @@
+## Framework for Trend Analysis
+The framework for trend analysis isn't restricted solely to specific topics such as digital technology, fintech, payment, and settlement. It can be applied to any topic for which you have textual data and wish to conduct analysis.
+
 ## 트렌드 분석 프레임워크
 트렌드 분석 프레임워크는 디지털기술, 핀테크, 지급결제 등 특정 주제에 대해서만 국한하여 사용할 수 있는 것이 아니라, 분석하고자 하는 주제에 대한 텍스트 형태의 데이터만 있다면 동 프레임워크을 적용하여 해당 주제에 대한 트렌드를 분석할 수 있다.
 
 --------------------------------------------------------------------------------
+**Architecture**
+
+① Input the collected textual data like news and journals which you want to anlayze
+② Pre-processing into a format available to anlyze
+Conduct ③-(1)word ranking, ③-(2)co-occurrence counting , ③-(3)topic modeling
+As a result of ③, conduct ④-(1) keyword analysis, ④-(2) keyword network analysis, ④-(3) time-series topic analysis
 
 **아키텍처**
 
@@ -11,6 +20,17 @@
 </p>
 
 --------------------------------------------------------------------------------
+
+**Experiment for Trend Analysis**
+
+Using the framework for trend analysis, a study was conducted on the trend analysis about 'payment systems.' 
+Datasets : the Journal of Payments Strategy & Systems (JPSS), the Korean Payment and Settlement Association Journal (KPSA), and articles from Naver News
+
+|classfication|Collection|Analysis|
+|------|---|---|
+|International Journal|[Journal of Payments Strategy & Systems(JPSS)](https://www.henrystewartpublications.com/jpss)|164 abstracts|
+|Domestic Journal|[the Korean Payment and Settlement Association Journal(KPSA)](http://www.kpsa.kr/)|93 abstracts|
+|News|[News from Naver Portal](https://news.naver.com/)-serach by ‘Payment’|8119 contents|
 
 **트렌드 분석 실험**
 
@@ -24,7 +44,7 @@
 
 --------------------------------------------------------------------------------
 
-**소스코드 실행 예시**
+**code example**
 
 ```sh
 $ python kpsa.py
