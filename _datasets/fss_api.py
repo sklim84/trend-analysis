@@ -14,8 +14,8 @@ auth_key = '810289f7039c2aac1394944305422bd4'
 
 # 개인은 조회기간 1개월 제한
 # 하루 조회 건수 30회
-# for year in (2017, 2018, 2019, 2020, 2021):
-for year in [2017, 2018, 2019, 2020, 2021]:
+# for year in [2017, 2018, 2019, 2020, 2021]:
+for year in [2022, 2023]:
     for month in range(1, 13):
         month_range = calendar.monthrange(year, month)
         start_date = '-'.join([str(year), str(month).zfill(2), '01'])
@@ -34,7 +34,8 @@ for year in [2017, 2018, 2019, 2020, 2021]:
 
 
 li = []
-for year in (2017, 2018, 2019, 2020, 2021):
+# for year in (2017, 2018, 2019, 2020, 2021):
+for year in [2022, 2023]:
     for month in range(1, 13):
         try:
             filename = 'fss_{}.csv'.format(str(year) + str(month).zfill(2))
